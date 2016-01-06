@@ -1,0 +1,176 @@
+         * {margin:0; padding:0;}
+
+        .clearfix:after {
+          clear: both;
+          content: ".";
+          display: block;
+          height: 0;
+          visibility: hidden;
+         }
+
+        .main {
+            width: 1024px;
+            color: #231f20;
+            min-height: 300px;
+            padding-top: 230px;
+            height: auto;
+            margin: 0 auto;
+            background: url(../img/main.png) no-repeat 45px 50px;
+            
+        }
+
+        .lefter {
+            width: 300px;
+            float: left;
+            margin-right: 40px;
+        }
+
+        .main p.title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 30px;
+        }
+
+        .clear {
+            clear: both
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            float:left;
+        }
+
+        .text {
+            width: 200px;
+            height:auto;
+            padding:10px;
+            margin: 0 auto;
+            float:left;
+        }
+
+        .circle {
+            display:block;
+            float:left;
+            width: 10px;
+            height: 10px;
+            margin: 5px;
+            border-radius: 50%;
+        }
+
+        .at {
+            margin-top:10px;
+        }
+
+        .main p {font-size: 10px; margin-top: 5px;}
+        a.acourse {font-size: 10px; color:#231f20; text-decoration: none}
+        a.acourse:hover {border-bottom:1px dotted #231f20;}
+
+        .html .icon {background: url(../img/html.png) no-repeat center center;}
+        .html .circle {background-color: #f06428;}
+
+        .css .icon {background: url(../img/css.png) no-repeat center center;}
+        .css .circle {background-color: #1073bb;}
+
+        .js .icon {background: url(../img/js.png) no-repeat center center;}
+        .js .circle {background-color: #eedb4e;}
+
+        .php .icon {background: url(../img/php.png) no-repeat center center;}
+        .php .circle {background-color: #5a69b4;}
+            
+        .python .icon {background: url(../img/p.png) no-repeat center center; background-size: 60px;}
+        .python .circle {background-color: #5a69b4;}
+
+        .cpp .icon {background: url(../img/cpp.png) no-repeat center center; background-size: 60px;}
+        .cpp .circle {background-color: #5a69b4;}
+        
+        .java .icon {background: url(../img/java.png) no-repeat center center; background-size: 60px;}
+        .java .circle {background-color: #5a69b4;}
+
+        .ch .icon {background: url(../img/ch.png) no-repeat center center; background-size: 60px;}
+        .ch .circle {background-color: #5a69b4;}
+
+        .inform .icon {background: url(../img/inform.png) no-repeat center center; background-size: 60px;}
+        .inform .circle {background-color: #5a69b4;}
+
+        .math .icon {background: url(../img/math.png) no-repeat center center; background-size: 60px;}
+        .math .circle {background-color: #5a69b4;}
+
+
+        .center {margin: 50px auto; width: 210px; }
+        footer {margin:50px auto; text-align: center; font-size:10px; font-weight: bold}
+    
+
+        .main {position: relative;} 
+        #info {
+            position: absolute;
+            top: 82px;
+            left: 390px;
+        }
+
+        #source {
+                width: 220px;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                margin: 12px 0 6px 0
+            }
+
+            #source div {
+                width: 40px;
+                height: 40px;
+                background-size: 40px 40px;
+                cursor: pointer;
+                margin: 5px;
+                margin-left: 0;
+                
+            }
+
+            #mail {
+                background: url(../img/mail.png) no-repeat;
+            }
+
+            #git {
+                background: url(../img/git.png) no-repeat;
+            }
+
+            #you {
+                background: url(../img/you.png) no-repeat;
+            }
+
+            #vk {
+                background: url(../img/vk.png) no-repeat;
+            }
+            
+            #num {
+                font-size: 15px;
+            }
+
+            /* ani */
+
+            .fadeOut {
+              -webkit-animation: fadeOut_step .5s 1;
+              -moz-animation:    fadeOut_step .5s 1;
+              -o-animation:      fadeOut_step .5s 1;
+              animation:         fadeOut_step .5s 1;
+            }
+
+            .fadeIn {
+              -webkit-animation: fadeIn_step .5s 1;
+              -moz-animation:    fadeIn_step .5s 1;
+              -o-animation:      fadeIn_step .5s 1;
+              animation:         fadeIn_step .5s 1;
+            }
+
+            @-webkit-keyframes fadeOut_step {
+              0%   { opacity: 1;}
+              100% { opacity: 0;}
+            }
+
+            @-webkit-keyframes fadeIn_step {
+              0%   { opacity: 0;}
+              100% { opacity: 1;}
+            }
+
+             #source a {display: block; width: 100%; height: 100%}
