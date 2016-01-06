@@ -107,10 +107,25 @@
 		})
 
 		$(window).load(function(){
-			var video = document.getElementById('videos');
-			$('video').css('display', 'block');
-			$('.layer').css('opacity', '0.7');
-			video.play();
+		//	var video = document.getElementById('videos');
+		//	$('video').css('display', 'block');
+		//	$('.layer').css('opacity', '0.7');
+		//	video.play();'
+
+			var path = 'build/media/intro.mp4';
+			var video = 
+			$('<video width="6000px" height="6000px" loop autoplay>' +
+			    "<source src='" + path + "' type='video/mp4'>" +
+			"</video>");
+
+			$('.layer').before(video);
+
+ 			video.bind("canplaythrough", function () {
+			    $('video').css('visibility', 'visible');
+			    $('.layer').css('opacity', '0.7');
+			});
+
+
 		})
 		
 
