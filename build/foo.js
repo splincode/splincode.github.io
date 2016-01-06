@@ -107,10 +107,6 @@
 		})
 
 		$(window).load(function(){
-		//	var video = document.getElementById('videos');
-		//	$('video').css('display', 'block');
-		//	$('.layer').css('opacity', '0.7');
-		//	video.play();'
 
 			var path = 'build/media/intro.mp4';
 			var video = 
