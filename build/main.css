@@ -15,6 +15,8 @@
   
     html { background: #fff url(img/Loader.gif) no-repeat center center;}
     body { background: rgba(0,0,0, 0.7) url(img/bg.jpg) no-repeat center center; background-size: cover}
+
+
     html, body {height: 100%; width: 100%;}
     body {display: none}
     html {overflow: auto;  }
@@ -28,7 +30,13 @@
           min-height: 100%;
           width: auto;
           height: auto;
-          z-index: -2;
+          z-index: 0;
+          display: none
+    }
+
+    img {
+      background: url(img/preload.gif) no-repeat center center;
+      background-size: 18px;
     }
 
     .layer {
@@ -37,9 +45,13 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #282828;
-        background: rgba(0,0,0, 0.7);
-        z-index: -1;
+        background: rgb(0,0,0);
+        opacity: 0;
+        z-index: 1;
+    }
+
+    .parent {
+      z-index: 10
     }
 
     .child{
@@ -137,16 +149,7 @@
         padding-left: 16px
       }
 
-      .code img {
-        width: 50px;
-        height: 40px;
-        margin:5px;
-        border:4px solid #fff;
-        -moz-box-shadow: 0px 0px 2px #000000;
-        -webkit-box-shadow: 0px 0px 2px #000000;
-        box-shadow: 0px 0px 2px #000000;
-        cursor: pointer;
-      }
+      
 
       .code li { list-style: none;    float: left}
 

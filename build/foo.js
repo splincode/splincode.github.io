@@ -101,14 +101,19 @@
 			})
 		}
 
+
+		$(document).ready(function(){		
+			$('body').fadeIn(400);
+		})
+
 		$(window).load(function(){
-			$('body').fadeIn(500);
+			var video = document.getElementById('videos');
+			$('video').css('display', 'block');
+			$('.layer').css('opacity', '0.7');
+			video.play();
 		})
 		
 
 	} else {
-
 		document.location.href = "http://phpbbex.com/oldies/ru.html";
-
 	}
-

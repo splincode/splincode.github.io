@@ -9,16 +9,10 @@
 </head>
 <body>
 
-  <video width="6000px" height="6000px" autoplay loop>
-     <source type="video/mp4" src="build/media/intro.mp4">
-  </video>
+ <video id="videos" width="6000px" height="6000px" loop>
+    <source type="video/mp4" src="build/media/intro.mp4">
+ </video> 
 
-  <section class="modal">
-    <div class="closepanel">
-      <div class="close">Закрыть (или нажмите Esc)</div>
-    </div>
-    <div class="basket"></div>
-  </section>
 
   <div class="layer"></div>
 
@@ -173,6 +167,13 @@
       </section>
       <div class="helper"></div>
   </div>
+
+  <section class="modal">
+    <div class="closepanel">
+      <div class="close">Закрыть (или нажмите Esc)</div>
+    </div>
+    <div class="basket"></div>
+  </section>
 
   <script src="build/modernizr.js"></script>
   <script src="build/jquery.js"></script>
