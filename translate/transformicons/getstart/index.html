@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Пример</title>
+	<link rel="stylesheet" href="reset.css">
+	
+	<!-- Transofrmicons -->
+	<link rel="stylesheet" href="transofrmicons/tcon.css">
+    <script src="transofrmicons/tcon.js"></script>
+    <script src="transofrmicons/tcon.set.min.js"></script>
+</head>
+<body>
+	<!-- main is the container -->
+	 <main>
+
+	   <!-- section -->
+	   <section>
+	     <h2>Как выглядит стартовый макет</h2>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;link rel="stylesheet" href="css/tcon.css"&gt;
+  &lt;script src="js/tcon.js"&gt;&lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;!-- Тут используем код наших кнопок --&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+
+        <h2 id="markup">Используем кнопки меню</h2>
+        <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>menu--xbutterfly</strong>
+        <sup class="f13" onclick='tcon.set("menu--xbutterfly", {"width" : "30px", "height" : "4px", "background" : "#507195"});'><span class="min">&lt;script&gt;</span> tcon.set("menu--xbutterfly", {"width" : "30px", "height" : "4px", "background" : "#507195"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-menu--xbutterfly" aria-label="toggle menu">
+          <span class="tcon-menu__lines" aria-hidden="true"></span>
+          <span class="tcon-visuallyhidden">toggle menu</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-menu--xbutterfly" aria-label="toggle menu"&gt;
+  &lt;span class="tcon-menu__lines" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle menu&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>     
+
+		<p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>menu--minus</strong>
+        <sup class="f13" onclick='tcon.set("menu--minus", {"width" : "30px", "height" : "4px", "background" : "red"});'><span class="min">&lt;script&gt;</span> tcon.set("menu--minus", {"width" : "30px", "height" : "4px", "background" : "red"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-menu--minus" aria-label="toggle menu">
+          <span class="tcon-menu__lines" aria-hidden="true"></span>
+          <span class="tcon-visuallyhidden">toggle menu</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-menu--minus" aria-label="toggle menu"&gt;
+  &lt;span class="tcon-menu__lines" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle menu&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>  
+
+		<p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>menu--xcross</strong>
+        <sup class="f13" onclick='tcon.set("menu--xcross", {"width" : "30px", "height" : "4px", "background" : "green"});'><span class="min">&lt;script&gt;</span> tcon.set("menu--xcross", {"width" : "30px", "height" : "4px", "background" : "green"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-menu--xcross" aria-label="toggle menu">
+          <span class="tcon-menu__lines" aria-hidden="true"></span>
+          <span class="tcon-visuallyhidden">toggle menu</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-menu--xcross" aria-label="toggle menu"&gt;
+  &lt;span class="tcon-menu__lines" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle menu&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>  
+	
+		<p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>menu--arrowup</strong>
+        <sup class="f13" onclick='tcon.set("menu--arrowup", {"width" : "30px", "height" : "4px", "background" : "pink"});'><span class="min">&lt;script&gt;</span> tcon.set("menu--arrowup", {"width" : "30px", "height" : "4px", "background" : "pink"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-menu--arrow tcon-menu--arrowup" aria-label="toggle menu">
+          <span class="tcon-menu__lines" aria-hidden="true"></span>
+          <span class="tcon-visuallyhidden">toggle menu</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-menu--arrow tcon-menu--arrowup" aria-label="toggle menu"&gt;
+    &lt;span class="tcon-menu__lines" aria-hidden="true"&gt;&lt;/span&gt;
+    &lt;span class="tcon-visuallyhidden"&gt;toggle menu&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+		<p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>menu--arrow360left</strong>
+        <sup class="f13" onclick='tcon.set("menu--arrow360left", {"width" : "30px", "height" : "4px", "background" : "gray"});'><span class="min">&lt;script&gt;</span> tcon.set("menu--arrow360left", {"width" : "30px", "height" : "4px", "background" : "gray"}); <span class="min">&lt;/script&gt;</span></sup></p>
+
+        <button type="button" class="tcon tcon-menu--arrow tcon-menu--arrow360left" aria-label="toggle menu">
+            <span class="tcon-menu__lines" aria-hidden="true"></span>
+            <span class="tcon-visuallyhidden">toggle menu</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-menu--arrow tcon-menu--arrow360left" aria-label="toggle menu"&gt;
+  &lt;span class="tcon-menu__lines" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle menu&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>  
+
+        <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>menu--arrowleft</strong>
+        <sup class="f13" onclick='tcon.set("menu--arrowleft", {"width" : "30px", "height" : "4px", "background" : "#0095EB"});'><span class="min">&lt;script&gt;</span> tcon.set("menu--arrowleft", {"width" : "30px", "height" : "4px", "background" : "#0095EB"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-menu--arrow tcon-menu--arrowleft" aria-label="toggle menu">
+            <span class="tcon-menu__lines" aria-hidden="true"></span>
+            <span class="tcon-visuallyhidden">toggle menu</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-menu--arrow tcon-menu--arrowleft" aria-label="toggle menu"&gt;
+  &lt;span class="tcon-menu__lines" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle menu&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>  
+
+        <h2 id="markup">Используем кнопки сеток</h2>
+
+        <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>grid--collapse</strong>
+        <sup class="f13" onclick='tcon.set("grid--collapse", {"width" : "30px", "height" : "30px", "background" : "#FA6900"});'><span class="min">&lt;script&gt;</span> tcon.set("grid--collapse", {"width" : "30px", "height" : "30px", "background" : "#FA6900"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-grid tcon-grid--collapse" aria-label="toggle grid">
+            <span class="tcon-grid__item" aria-hidden="true"></span>
+            <span class="tcon-visuallyhidden">toggle grid</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-grid tcon-grid--collapse" aria-label="toggle grid"&gt;
+  &lt;span class="tcon-grid__item" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle grid&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+        
+        <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>grid--rearrange</strong>
+        <sup class="f13" onclick='tcon.set("grid--rearrange", {"width" : "10px", "height" : "10px", "background" : "#3B8686"});'><span class="min">&lt;script&gt;</span> tcon.set("grid--rearrange", {"width" : "10px", "height" : "10px", "background" : "#3B8686"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-grid tcon-grid--rearrange" aria-label="toggle grid">
+          <span class="tcon-grid__item" aria-hidden="true"></span>
+          <span class="tcon-visuallyhidden">toggle grid</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-grid tcon-grid--rearrange" aria-label="toggle grid"&gt;
+  &lt;span class="tcon-grid__item" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle grid&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+        
+        <h2 id="markup">Используем кнопки добавления/удаления</h2>
+
+        <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>plus--check</strong>
+        <sup class="f13" onclick='tcon.set("plus", {"width" : "20px", "height" : "20px", "background" : "#79BD9A"});'><span class="min">&lt;script&gt;</span> tcon.set("plus", {"width" : "20px", "height" : "20px", "background" : "#79BD9A"}); <span class="min">&lt;/script&gt;</span></sup></p>
+        <button type="button" class="tcon tcon-plus tcon-plus--check" aria-label="add item">
+      <span class="tcon-visuallyhidden">add item</span>
+    </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-plus tcon-plus--check" aria-label="add item"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;add item&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+        <p><strong>plus--minus</strong></p>
+        <button type="button" class="tcon tcon-plus tcon-plus--minus" aria-label="add item">
+          <span class="tcon-visuallyhidden">add item</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-plus tcon-plus--minus" aria-label="add item"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;add item&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+        <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>remove--check</strong>
+        <sup class="f13" onclick='tcon.set("remove--check", {"width" : "60px", "height" : "60px", "background" : "#480048"});'><span class="min">&lt;script&gt;</span> tcon.set("remove--check", {"width" : "60px", "height" : "60px", "background" : "#480048"}); <span class="min">&lt;/script&gt;</span></sup></p>
+       <button type="button" class="tcon tcon-remove tcon-remove--check" aria-label="remove item">
+          <span class="tcon-visuallyhidden">remove item</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-remove tcon-remove--check" aria-label="remove item"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;remove item&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+        <p><strong>chevron-left</strong></p>
+       <button type="button" class="tcon tcon-remove tcon-remove--chevron-left" aria-label="remove item">
+          <span class="tcon-visuallyhidden">remove item</span>
+        </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-remove tcon-remove--chevron-left" aria-label="remove item"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;remove item&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+        <p><strong>chevron-right</strong></p>
+      <button type="button" class="tcon tcon-remove tcon-remove--chevron-right" aria-label="remove item">
+      <span class="tcon-visuallyhidden">remove item</span>
+    </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-remove tcon-remove--chevron-right" aria-label="remove item"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;remove item&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+      <p><strong>chevron-down</strong></p>
+      <button type="button" class="tcon tcon-remove tcon-remove--chevron-down" aria-label="remove item">
+      <span class="tcon-visuallyhidden">remove item</span>
+    </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-remove tcon-remove--chevron-down" aria-label="remove item"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;remove item&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+        <p><strong>chevron-up</strong></p>
+      <button type="button" class="tcon tcon-remove tcon-remove--chevron-up" aria-label="remove item">
+      <span class="tcon-visuallyhidden">remove item</span>
+    </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-remove tcon-remove--chevron-up" aria-label="remove item"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;remove item&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+    <h2 id="markup">Кнопка почты</h2>
+
+        <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>mail--envelope</strong>
+        <sup class="f13" onclick='tcon.set("mail--envelope", {"width" : "60px", "height" : "60px"});'><span class="min">&lt;script&gt;</span> tcon.set("mail--envelope", {"width" : "60px", "height" : "60px"}); <span class="min">&lt;/script&gt;</span></sup></p>
+      <button type="button" class="tcon tcon-mail--envelope" role="button" aria-label="open mailbox">
+      <span class="tcon-mail--envelope__flap" aria-hidden="true"></span>
+      <span class="tcon-visuallyhidden">open mailbox</span>
+    </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-mail--envelope" role="button" aria-label="open mailbox"&gt;
+  &lt;span class="tcon-mail--envelope__flap" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;open mailbox&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+	
+
+
+	<h2 id="markup">Кнопка видеоплеера</h2>
+    <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>vid--play</strong>
+    <sup class="f13" onclick='tcon.set("vid--play", {"width" : "60px", "height" : "60px", "background" : "#990100"});'><span class="min">&lt;script&gt;</span> tcon.set("vid--play", {"width" : "60px", "height" : "60px", "background" : "#990100"}); <span class="min">&lt;/script&gt;</span></sup></p>
+    <button type=button class="tcon tcon-vid--play" role=button aria-label="play video">
+        <span class=tcon-visuallyhidden>play video</span>
+    </button>
+<pre><code class=lang-html>&lt;button type=button class="tcon tcon-vid--play" role=button aria-label="play video"&gt;
+   &lt;span class=tcon-visuallyhidden&gt;play video&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+    <h2 id="markup">Кнопка поиска</h2>
+
+    <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>search--xcross</strong>
+    <sup class="f13" onclick='tcon.set("search--xcross", {"width" : "60px", "height" : "60px", "background" : "#601848"});'><span class="min">&lt;script&gt;</span> tcon.set("search--xcross", {"width" : "60px", "height" : "60px", "background" : "#601848"}); <span class="min">&lt;/script&gt;</span></sup></p>
+      <button type="button" class="tcon tcon-search--xcross" aria-label="toggle search">
+      <span class="tcon-search__item" aria-hidden="true"></span>
+      <span class="tcon-visuallyhidden">toggle search</span>
+    </button>
+<pre><code class=lang-html>&lt;button type="button" class="tcon tcon-search--xcross" aria-label="toggle search"&gt;
+  &lt;span class="tcon-search__item" aria-hidden="true"&gt;&lt;/span&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;toggle search&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+
+    <h2 id="markup">Элемент предзагрузки</h2>
+
+    <p title="Если вы подключили плагин tcon.set.js, тогда вы можете управлять некоторыми параметрами кнопок"><strong>loader--spinner360</strong>
+    <sup class="f13" onclick='tcon.set("loader--spinner360", {"width" : "60px", "height" : "60px", "background" : "#C6D4E1"});'><span class="min">&lt;script&gt;</span> tcon.set("loader--spinner360", {"width" : "60px", "height" : "60px", "background" : "#C6D4E1"}); <span class="min">&lt;/script&gt;</span></sup></p>
+      <span class="tcon-loader--spinner360" aria-label="loading">
+      <span class="tcon-visuallyhidden">loading</span>
+    </span>
+<pre><code class=lang-html>&lt;span class="tcon-loader--spinner360" aria-label="loading"&gt;
+  &lt;span class="tcon-visuallyhidden"&gt;loading&lt;/span&gt;
+&lt;/span&gt;
+</code></pre>
+
+    <br><br>
+        
+    <h2 id="markup">Настраиваем внешний вид</h2> 
+
+        <p>Для того, чтобы было удобно управлять кнопками, изменять их размеры и цвет, необходимо подключить плагин <strong>tcon.set.js</strong>  на ваш сайт после основного скрипта.</p>
+         
+
+            <h3 id="arguments">Параметры javascript-объекта tcon</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Метод</th>
+                        <th>Входные параметры</th>
+                        <th>Установка параметров кнопки</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><code>set</code>
+                        </th>
+                        <td>(string, {object})</td>
+                        <td>Установка ширины, высоты и фона</td>
+                    </tr>
+                </tbody>
+            </table>	
+			<br>
+		
+	   </section>
+			
+	   <!-- footer -->
+	   <footer>	  
+	   <br>
+	     <p>Project licensed under MIT © 2015. <br> Props to Bennett Feely and Sara Soueidan. Read the article on making transformicons by Sara Soueidan</p>
+	      <br>
+	   </footer>
+	 </main>
+
+	
+</body>
+</html>
