@@ -1,0 +1,114 @@
+	if(Modernizr.backgroundsize) {
+	
+		var data;
+
+		$.ajaxSetup({async: false});
+		$.getJSON('http://splincode.ru/portfolio/count.json', function(d){data = d;});
+		$.ajaxSetup({async: true});
+
+
+		$('.code').hover(function(){
+			$('.left_button, .right_button').fadeIn(200);
+		}, function(){
+			$('.left_button, .right_button').fadeOut(200);
+		});
+
+		var count = parseFloat(data.count);
+		var section = Math.ceil(count/15);
+		var dom = "";
+
+		var k = 1;
+		for (var j=1; j <= section; j++){
+			dom += "<div class='floating'>";
+			
+
+			for(var i=k; i<(k+15); i++){
+				dom += ("<image class='img' src='http://splincode.ru/portfolio/"+i+".jpg' />" + "\n");
+				count--;
+
+				if (count == 0) break;
+			}
+			k += 15;
+
+			dom += "</div>";
+		}
+
+		
+
+		$('.slider').html(dom);
+
+		
+		var activeSection = 1;
+		var nextStep = 340;
+		var start = 0;
+		var new_width = (360  * section) + "px";
+		j = 0;
+
+		$('.slider').css({'width' : new_width, 'max-width' : new_width});
+		
+
+		$('.right_button').on("click", function(){
+			
+
+			if (activeSection < section){
+				j = 7; // marginLEft = 17 - 10 = 7
+				nextStep = (-1) * parseFloat($('.slider').css('marginLeft')) + 340 + j; 
+				activeSection++;
+			}
+			
+			$('.slider').animate({
+			    marginLeft : "-" + nextStep + "px"
+			},500);
+
+		})
+
+		$('.left_button').on("click", function(){
+
+			if (activeSection > 1){
+				j = 7;
+				start = (-1) * parseFloat($('.slider').css('marginLeft')) - 340 - j; 
+				activeSection--;
+			}
+
+			$('.slider').animate({
+			    marginLeft : "-" + start + "px"
+			},500);
+			
+		})
+
+
+		$('.floating img').unbind("click").on("click", function(){
+			el = $(this).clone();
+			$('.basket').html(el);
+			el.css('display', 'inline-block')
+			$('.modal').fadeIn(500);
+		});
+
+		$('.close').on("click", function(){
+			clickCloseModal();
+		})
+
+		$(document).keyup(function(e) {
+		     if (e.keyCode == 27) { 
+		     	clickCloseModal();
+		    }
+		});
+
+
+		var clickCloseModal = function(){
+			$('.modal').fadeOut(500, function(){
+				$('.modal .img').remove();
+			})
+		}
+
+		$(window).load(function(){
+			$('body').fadeIn(500);
+		})
+		
+
+	} else {
+
+		document.location.href = "http://phpbbex.com/oldies/ru.html";
+
+	}
+
