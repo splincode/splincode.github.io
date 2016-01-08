@@ -18,7 +18,7 @@
 
 
     html, body {height: 100%; width: 100%;}
-    body {display: none}
+    body {display: none; min-width: 320px}
     html {overflow: auto;  }
     * html .clearfix             { zoom: 1; } /* IE6 */
     *:first-child+html .clearfix { zoom: 1; } /* IE7 */
@@ -165,12 +165,37 @@
       .info .mycircle  {border:1px solid #7CB99A;}
 
       .mycircle {width:4px; height: 4px; border:1px solid #0095EB; float:left; margin: 5px 0 0 -19px;border-radius: 50%}
-
-
+  
+   .clear {clear: both;}
+  
     @media (max-width: 1024px) {
-      .left {width: 680px; height: 280px}
+      .left {width: 700px; height: 230px;}
       .child {width: 700px}
+      .section1, .section2, .section3 {float:left; margin: 10px;}
+      .section1 {margin-left: 15px}
+      .logo {margin-bottom: 10px;}
+      .section1 .f16, .section1 .f14 {display: none}
+      .section2 .contact {margin-top: 0}
     }
+
+    @media (max-width: 640px) {
+      .left { width: 340px}
+      .section4 {display: none}
+      .right  {width: 320px}
+      .child {width: 320px;}
+      .section2 {
+        float: left;
+        width: 10px;
+        margin: 0;
+      }
+      .section2 p {margin-bottom: 14px;}
+      video {display: none}
+      .layer {display: none}
+      .hidden {display: none}
+
+    }
+
+    .right .f18 {margin-left: 25px;} 
     
     li[data-rating]{
       cursor: pointer;

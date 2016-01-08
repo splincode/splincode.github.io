@@ -108,19 +108,27 @@
 
 		$(window).load(function(){
 
-			var path = 'build/media/intro.mp4';
-			var video = 
-			$('<video width="6000px" height="6000px" loop autoplay>' +
-			    "<source src='" + path + "' type='video/mp4'>" +
-			"</video>");
+			w = $(window).width();
+			
+			if (w > 640) {
 
-			$('.layer').before(video);
+				var path = 'build/media/intro.mp4';
+				var video = 
+				$('<video width="6000px" height="6000px" loop autoplay>' +
+				    "<source src='" + path + "' type='video/mp4'>" +
+				"</video>");
 
- 			video.bind("canplaythrough", function () {
-			    $('video').css('visibility', 'visible');
-			    $('.layer').css('opacity', '0.7');
-			});
+				$('.layer').before(video);
 
+	 			video.bind("canplaythrough", function () {
+				    $('video').css('visibility', 'visible');
+				    $('.layer').css('opacity', '0.7');
+
+				});
+
+			}
+
+			//$()
 
 		})
 		
