@@ -13,7 +13,11 @@
 			$('.left_button, .right_button').fadeOut(200);
 		});
 
-		var count = parseFloat(data.count);
+		var count;
+		if (!data) {
+			count = 17;
+		} else count = parseFloat(data.count);
+		
 		var section = Math.ceil(count/15);
 		var dom = "";
 
@@ -128,7 +132,6 @@
 
 			}
 
-			//$()
 
 		})
 		

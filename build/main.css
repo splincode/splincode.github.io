@@ -18,7 +18,7 @@
 
 
     html, body {height: 100%; width: 100%;}
-    body {display: none; min-width: 320px}
+    body {display: none;}
     html {overflow: auto;  }
     * html .clearfix             { zoom: 1; } /* IE6 */
     *:first-child+html .clearfix { zoom: 1; } /* IE7 */
@@ -192,7 +192,38 @@
       video {display: none}
       .layer {display: none}
       .hidden {display: none}
+    }
 
+    @media (max-width: 440px) {
+      .left {
+        width: 100%;
+        margin: 0;
+      }
+
+      .right {
+       width: 100%;
+       padding: 0;
+       margin: 0;
+
+      }
+
+      .left, .right {
+        border: none;
+      }
+
+      body {
+        overflow-x: hidden; min-width: 320px;
+        background: none; 
+        background-color: #fefbf8;
+      }
+
+       .section3 {
+        display: none
+      }
+
+      .child {
+          width: 99%; display: block;
+      }
     }
 
     .right .f18 {margin-left: 25px;} 
