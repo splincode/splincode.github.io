@@ -35,7 +35,7 @@ body {
 .css .img {background: url(img/c.png) no-repeat center center;}
 
 .js {background-color: #eedb4e}
-.js .left {color:#000; text-align: center; font-size: 100px;  text-shadow:1px 1px 7px #fff;}
+.js .left {color:#000; text-align: center; font-size: 100px; }
 .js .img {background: url(img/js.png) no-repeat center center;}
 
 .php {background-color: #5a69b4}
