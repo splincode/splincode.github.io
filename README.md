@@ -9,6 +9,16 @@
 Приемы объектно-ориентированного проектирования. Паттерны проектирования <br>
 &emsp;&emsp;&emsp;(Э. Гамма, Р. Хелм, Р. Джонсон, Дж. Влиссидес) <br>
 
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/> Рефакторинг: улучшения дизайна существующего кода (Мартин Фаулер) <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/> Шаблоны корпоративных приложений (Мартин Фаулер) <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/> Экстремальное программирование — разработка через тестирование (Кент Бек) <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/> Совершенный код (Стив Макконнелл) <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/> Чистый код. Создание, анализ и рефакторинг (Роберт Мартин) <br>
+
 <h4> Клиентская разработка (фронтенд) </h4>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
