@@ -58,4 +58,59 @@ Just for fun. Рассказ нечаянного революционера <br
 
 <img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Собственный минималистичный back-end фреймворк или способность его разработать <br>
+ 
+<!-- -->
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт работы с системами багтрекинга (JIRA, YouTrack, Redmine)<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт работы в agile команде <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт с использованием сторонних библиотек для реализаций визуальных и аудио-эффектов (таких как GSAP, а также работающих с Canvas/WebGL) — отдельный плюс <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+опыт разработки сайтов с применением CMS-систем <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Умение применять MVC-концепцию <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+знания PHP и WordPress на уровне перегрузки функций и написания action/filter <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+wordpress написать хук для functions.php child-темы <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Хорошее понимание responsive фреймворков типа Bootstrap, Foundation, Jeet<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+владение GIT, Mercurial или Bazaar VCS ( ветки, слияния, rebase и т.д.)<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт разработки real-time веб-приложений <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Понимание архитектурных паттернов (MVC, MVVM, etc.) <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Facebook API (Web) <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Иметь опыт разработки проектов под существенную нагрузку с использованием LAMP-технологий <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+реализовывать средства визуализации и мониторинга <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+php-fpm, pinba и blitz <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Верстать pixel-perfect макеты с Sketch3 и Photoshop <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт работы с Twitter Bootstrap <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт работы с SugarCRM будет огромным плюсом <br>
 
