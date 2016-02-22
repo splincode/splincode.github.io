@@ -1,6 +1,13 @@
 <h3>Чек-лист развития</h3>
 <hr>
 
+<h4> Литература </h4>
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left"/>
+Искусство программирования (Дональд Э.Кнут) <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left"/>
+Приемы объектно-ориентированного проектирования. Паттерны проектирования (Э. Гамма, Р. Хелм, Р. Джонсон, Дж. Влиссидес) <br>
+
 <h4> Клиентская разработка (фронтенд) </h4>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left"/>
