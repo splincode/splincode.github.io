@@ -2,7 +2,8 @@
 <hr>
 
 <h4> Литература </h4>
-&nbsp;&nbsp;<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left"/>Искусство программирования (Дональд Э.Кнут) <br>
+&emsp;<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left"/>
+Искусство программирования (Дональд Э.Кнут) <br>
 
 &nbsp;&nbsp;<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left"/>Приемы объектно-ориентированного проектирования. Паттерны проектирования <br> (Э. Гамма, Р. Хелм, Р. Джонсон, Дж. Влиссидес) <br>
 
