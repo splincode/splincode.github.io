@@ -114,3 +114,36 @@ php-fpm, pinba и blitz <br>
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт работы с SugarCRM будет огромным плюсом <br>
 
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Багфиксинг <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Устранение неполадок в работе сайтов, CRM; <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Оптимизация существующих запросов и структуры базы <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+GOLang или Java или Python <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Фреймворков: Angular.JS, Symfony2, beego <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Стораджей: MySQL, memcache, redis, elastic-stack, riak и т.д <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Отличное знание *nix систем (в частности Debian, CentOS);<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Оптимизация и улучшение производительности, рефакторинг имеющегося кода <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Технический английский <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт работы с Symfony2 <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Использование современной многофункциональной среды разработки PhpStorm <br>
+
