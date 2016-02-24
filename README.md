@@ -272,7 +272,8 @@ MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
 Опыт работы с git-flow<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Гибкая разработка с применением лучших практик (Scrum, TDD) и инструментов фирмы Atlassian (JIRA, Stash, Confluence)<br>
+Гибкая разработка с применением лучших практик (Scrum, TDD)
+ <br> &emsp;&emsp;&emsp; и инструментов фирмы Atlassian (JIRA, Stash, Confluence)<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Знание основ тестирования<br>
