@@ -51,10 +51,10 @@ Just for fun. Рассказ нечаянного революционера <br
 
 <h4>Языки программирования</h4>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Pascal <br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 С/С++ <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
@@ -66,19 +66,19 @@ Java <br>
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Python <br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 PHP <br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 JavaScript <br>
 
 <h4> Клиентская часть (фронтенд) </h4>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 знание HTML, CSS<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Верстать pixel-perfect макеты с Sketch3 и Photoshop <br>
+Верстать pixel-perfect макеты в Sketch3 и/или Photoshop <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Хорошее понимание responsive фреймворков типа Bootstrap, Foundation, Jeet<br>
@@ -140,7 +140,7 @@ PhoneGap<br>
 <img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Собственный минималистичный back-end фреймворк или способность его разработать <br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Опыт разработки сайтов с применением CMS-систем <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
@@ -175,7 +175,7 @@ Yii 2<br>
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Оптимизация существующих запросов и структуры базы <br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Знание SQL, JSON, XML<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
@@ -189,27 +189,26 @@ MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
  
 <h4> Общие </h4>
 
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Представление о различных стандартах, протоколах: XHTML, HTML, CSS, AJAX, HTTP/2.0<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Умение поиска в интернете, гугле, по документации, форумам и иным местам с полезными и не очень
  <br> &emsp;&emsp;&emsp; знаниями на русском и английском языке<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Умение разворачивать/устанавливать готовые системы<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Умение использовать и понимать чужой код<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Понимание архитектуры клиент-сервер<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Знание и понимание одной или нескольких баз данных и языка запросов<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Понятие кодировки текста<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
@@ -284,10 +283,10 @@ MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Умение автоматизировать рутинные процессы (capistrano, phing и др.)<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Знание особенностей работы современных браузеров<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Понимание принципов ООП и умение применять их на практике<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
@@ -301,11 +300,11 @@ MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
 
 <h4>Инструменты разработки</h4>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Photoshop, Dreamweaver <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Использование современной многофункциональной среды разработки PhpStorm <br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
 Sublime Text 3 <br>
