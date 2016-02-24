@@ -52,6 +52,9 @@ Just for fun. Рассказ нечаянного революционера <br
 <h4>Языки программирования</h4>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Pascal <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 С/С++ <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
@@ -66,11 +69,13 @@ Python <br>
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 PHP <br>
 
-
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 JavaScript <br>
 
 <h4> Клиентская часть (фронтенд) </h4>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+знание HTML, CSS<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Верстать pixel-perfect макеты с Sketch3 и Photoshop <br>
@@ -79,13 +84,52 @@ JavaScript <br>
 Хорошее понимание responsive фреймворков типа Bootstrap, Foundation, Jeet<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+опыт работы с БЭМ<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт работы с Dart, Polymer.Dart<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Node.js, Grunt, Bower<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+ECMAScript 6<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт работы с React.js и FRP <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+TypeScript, CoffeScript<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+RequireJS, jQuery, VanillaJS<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Ember, Backbone, React, Angular<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+LESS, Sass, Stylus<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Dojo<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт использования  ExtJS<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт с использованием сторонних библиотек для реализаций визуальных и аудио-эффектов (таких как GSAP, а также работающих с Canvas/WebGL) — отдельный плюс <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Facebook API (Web) <br>
+PhoneGap<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Верстка новых компонентов для портального UI репозитория Лего по технологии БЭМ<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Способность рационально структурировать JS-код большого проекта<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Знание шаблонизатора HandlebarsJS<br>
 
 <h4> Серверная часть (бэкенд) </h4>
 
@@ -107,12 +151,79 @@ Wordpress: написать хук для functions.php child-темы <br>
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 php-fpm, pinba и blitz <br>
 
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт разработки модулей для 1C-Битрикс, Drupal, OpenCart, SimplaCMS, Joomla, MODX, WordPress<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт работы с Symfony2 <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Yii 2<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Знание и умение применять автоматическое тестирование (phpunit, behat + mink, phpspec)<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Имеет опыт работы с Zend Framework 2<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Знание шаблонизатора Twig<br>
+
 <h4> Хранилища данных </h4>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Оптимизация существующих запросов и структуры базы <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Знание SQL, JSON, XML<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Умение работать с нереляционными базами данных (mongodb)<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Имеет опыт работы с PostgreSQL<br>
  
 <h4> Общие </h4>
+
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Представление о различных стандартах, протоколах: XHTML, HTML, CSS, AJAX, HTTP/2.0<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Умение поиска в интернете, гугле, по документации, форумам и иным местам с полезными и не очень знаниями на русском и английском языке<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Умение разворачивать/устанавливать готовые системы<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Умение использовать и понимать чужой код<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Понимание архитектуры клиент-сервер<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Знание и понимание одной или нескольких баз данных и языка запросов<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Понятие кодировки текста<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Знание и понимание одной или нескольких мультимедийных платформ: Adobe Flash, Flex, Microsoft Silverlight, Java<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Отличное знание *nix систем <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Технический английский <br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Грамотно проектировать эргономику пользовательского интерфейса<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Вы имеете опыт работы с WebSocket'ами<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт работы с системами багтрекинга (JIRA, YouTrack, Redmine)<br>
@@ -122,6 +233,12 @@ php-fpm, pinba и blitz <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 владение GIT, Mercurial или Bazaar VCS ( ветки, слияния, rebase и т.д.)<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Проектировать протоколы обмена данных между различными веб-ресурсами<br>
+
+<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
+Опыт разработки клиент-серверных приложений<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт разработки real-time веб-приложений <br>
@@ -141,30 +258,11 @@ php-fpm, pinba и blitz <br>
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Устранение неполадок в работе сайтов, CRM <br>
 
-
-
-
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Фреймворков: Angular.JS, Symfony2, beego <br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Стораджей: MySQL, memcache, redis, elastic-stack, riak и т.д <br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Отличное знание *nix систем (в частности Debian, CentOS);<br>
-
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Оптимизация и улучшение производительности, рефакторинг имеющегося кода <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Технический английский <br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Опыт работы с Symfony2 <br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Использование современной многофункциональной среды разработки PhpStorm <br>
+Умение работать с системами контроля версий (SVN, Git или Mercurial) и сборки (Ant, Maven)<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт работы с git-flow<br>
@@ -173,158 +271,36 @@ php-fpm, pinba и blitz <br>
 Гибкая разработка с применением лучших практик (Scrum, TDD) и инструментов фирмы Atlassian (JIRA, Stash, Confluence)<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Опыт работы с git-flow<br>
+Знание основ тестирования<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт работы и проектирования RESTful протоколов<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Знание и умение применять автоматическое тестирование (phpunit, behat + mink, phpspec)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Умение автоматизировать рутинные процессы (capistrano, phing и др.)<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Grunt, Bower<br>
+Знание особенностей работы современных браузеров<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Умение работать с нереляционными базами данных (mongodb)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-ECMAScript 6<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-BackboneJs<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-EmberJs<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-PhoneGap<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Имеет опыт работы с Zend Framework 2<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Имеет опыт работы с PostgreSQL<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Понимает e-commerce<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-вы имеете опыт работы с WebSocket'ами<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-RequireJS, TypeScript, jQuery, Backbone, React, Grunt, LESS, VanillaJS<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-использовали в своей работе CSS-препроцессоры<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-CRM, IP-телефония, рекламные системы<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Верстка новых компонентов для портального UI репозитория Лего по технологии БЭМ<br>
+Понимание принципов ООП и умение применять их на практике<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Работа с API соцсетей<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-умения с mysql, redis, elasticsearch<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Знание SQL<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-знание Apache Flex<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-знание современных архитектурных фреймворков<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-знание HTML, CSS, JavaScript и ActionScript 3.0<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-знание особенностей работы современных браузеров<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-способность рационально структурировать JS-код большого проекта<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-понимание принципов ООП и умение применять их на практике<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-умение работать с системами контроля версий (SVN, Git или Mercurial) и сборки (Ant, Maven)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-умение работать с системами контроля версий (SVN, Git или Mercurial) и сборки (Ant, Maven)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-умение работать с системами контроля версий (SVN, Git или Mercurial) и сборки (Ant, Maven)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-знание основ VCS (Git, svn)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-опыт работы с Node.js, БЭМ<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-опыт программирования на PHP+mySQL<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-опыт использования JavaScript, ExtJS, PHP5 (ООП), MySQL, HTML + CSS, JQuery<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-yii2.0<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-PHP, MySQL, HTML, JavaScript, Photoshop, AJAX<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-знание ADO, MS SQL Server (Transact SQL)<br>
+Опыт работы с AWS, Cloudinary, jsDelivr и Git<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Работать с почтовыми протоколом POP 3 и IMAP<br>
 
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-знание основ тестирования<br>
+<h4>Инструменты разработки</h4>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Грамотно проектировать эргономику пользовательского интерфейса<br>
+Photoshop, Dreamweaver <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Проектировать протоколы обмена данных между различными веб-ресурсами<br>
+Использование современной многофункциональной среды разработки PhpStorm <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Знание Друпал<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Знание Друпал<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-С#<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Опыт разработки клиент-серверных приложений<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Умение работать с кешерами (memcache, redis)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-опыт разработки модулей для 1C-Битрикс, OpenCart, SimplaCMS, Joomla, MODX, WordPress<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Опыт работы с Dart, Polymer.Dart<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-dojo<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Необходимо знать: - JavaScript  - CoffeeScript - (X)HTML и CSS - JS библиотеки (jQuery, AngularJS, BackboneJS) - шаблонизаторы (Twig и HandlebarsJS)<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-1) Представление о различных стандартах, протоколах: XHTML, HTML, CSS2.1, RSS, HTTP/1.1 и иные; 2) Умение поиска в интернете, гугле, по документации, форумам и иным местам с полезными и не очень знаниями на русском и английском языке; 3) Знание одного или нескольких серверных языков: Ruby, PHP, Perl, Python, ASP, Java; 4) Знание JavaScript. Хорошее; 5) Желательно хорошее знание одного или нескольких серверных и браузерных фреймворков; 6) Умение разворачивать/устанавливать готовые системы; 7) Умение использовать и понимать чужой код; 8) Желательно понимание ОС типа *nix; 9) Умение хорошо программировать; 10) Понимание архитектуры клиент-сервер; 11) Знание и понимание одной или нескольких баз данных и языка запросов. 12) JSON, XML, AJAX - тоже бы. 13) Желательно знание и понимание одной или нескольких мультимедийных платформ: Adobe Flash, Flex, Microsoft Silverlight, Java. 14) Желательно знание новых стандартов и технологий: HTML5, CSS3. 15) Понятие кодировки текста.<br>
-
-<img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Опыт работы с AWS, Cloudinary, jsDelivr и Git<br>
-
+Sublime Text 3 <br>
