@@ -194,7 +194,8 @@ MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
 Представление о различных стандартах, протоколах: XHTML, HTML, CSS, AJAX, HTTP/2.0<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Умение поиска в интернете, гугле, по документации, форумам и иным местам с полезными и не очень знаниями на русском и английском языке<br>
+Умение поиска в интернете, гугле, по документации, форумам и иным местам с полезными и не очень
+ <br> &emsp;&emsp;&emsp; знаниями на русском и английском языке<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Умение разворачивать/устанавливать готовые системы<br>
@@ -264,7 +265,8 @@ MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
 Оптимизация и улучшение производительности, рефакторинг имеющегося кода <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Умение работать с системами контроля версий (SVN, Git или Mercurial) и сборки (Ant, Maven)<br>
+Умение работать с системами контроля версий (SVN, Git или Mercurial)
+ <br> &emsp;&emsp;&emsp; и сборки (Ant, Maven)<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Опыт работы с git-flow<br>
