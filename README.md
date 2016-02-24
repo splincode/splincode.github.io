@@ -117,7 +117,8 @@ Dojo<br>
 Опыт использования  ExtJS<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Опыт с использованием сторонних библиотек для реализаций визуальных и аудио-эффектов (таких как GSAP, а также работающих с Canvas/WebGL) — отдельный плюс <br>
+Опыт с использованием сторонних библиотек для реализаций визуальных и аудио-эффектов 
+ <br> &emsp;&emsp;&emsp; (таких как GSAP, а также работающих с Canvas/WebGL) — отдельный плюс <br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 PhoneGap<br>
@@ -211,7 +212,8 @@ MySQL, memcache, redis, elastic-stack (elasticsearch), riak<br>
 Понятие кодировки текста<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
-Знание и понимание одной или нескольких мультимедийных платформ: Adobe Flash, Flex, Microsoft Silverlight, Java<br>
+Знание и понимание одной или нескольких мультимедийных платформ: 
+ <br> &emsp;&emsp;&emsp; Adobe Flash, Flex, Microsoft Silverlight, Java<br>
 
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 Отличное знание *nix систем <br>
