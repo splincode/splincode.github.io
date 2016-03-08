@@ -15,7 +15,7 @@
 
 		var count;
 		if (!data) {
-			count = 17;
+			count = 21;
 		} else count = parseFloat(data.count);
 		
 		var section = Math.ceil(count/15);

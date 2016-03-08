@@ -60,7 +60,7 @@
     }
 
 
-    .left, .right {float:left; overflow: hidden; margin: 10px; height: 650px; background: #fefbf8;
+    .left, .right {float:left; overflow: hidden; margin: 10px; height: 600px; background: #fefbf8;
      color: #494949; font-size: 14px; border:1px solid #f1eeec;}
     .left {
       width: 250px; text-align: center; 
