@@ -257,6 +257,9 @@
         height: 192px;
         overflow: hidden;
         position: relative;
+         -moz-box-shadow: 0px 0px 1px #000000;
+        -webkit-box-shadow:0px 0px 1px #000000;
+        box-shadow: 0px 0px 1px #000000;
       }
       .hide, .hide_l{
         position: absolute;
