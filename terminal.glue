@@ -1,1 +1,15 @@
+█ [ /home/splincode/develop/splincode.github.io ] git add .
+
+█ [ /home/splincode/develop/splincode.github.io ] git commit -m "css refresh"
+error: pathspec 'refresh' did not match any file(s) known to git.
+
+█ [ /home/splincode/develop/splincode.github.io ] git commit -m "update"
+[master db7a311] update
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+ create mode 100644 terminal.glue
+
+█ [ /home/splincode/develop/splincode.github.io ] git push
+To https://github.com/splincode/splincode.github.io.git
+   a669481..db7a311  master -> master
+
  
