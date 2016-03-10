@@ -1,4 +1,11 @@
-█ [ /home/splincode/develop/splincode.github.io ] sh git.sh
-sh: 0: Can't open git.sh
+█ [ /home/splincode/develop/splincode.github.io ] ls
+build
+course
+git.bash
+index.html
+project
+README.md
+terminal.glue
+translate
 
  
