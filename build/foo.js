@@ -1,3 +1,5 @@
+	if (window.location.protocol === "https:") { window.location.href = ("http://splincode.github.io"); }
+
 	if(Modernizr.backgroundsize) {
 	
 		var data;
@@ -13,11 +15,8 @@
 			$('.left_button, .right_button').fadeOut(200);
 		});
 
-		var count;
-		if (!data) {
-			count = 21;
-		} else count = parseFloat(data.count);
-		
+		var count = 23;
+	
 		var section = Math.ceil(count/15);
 		var dom = "";
 
