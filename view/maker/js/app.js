@@ -1,7 +1,7 @@
 $(function(){
 
 	$.ajax({
-	  url:"www.new.s-tv.ru/tv/",
+	  url:"http://new.s-tv.ru/tv/",
 	  dataType: "jsonp",
 	  success: function (data) {
 	    console.log(data)
