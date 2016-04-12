@@ -1,13 +1,14 @@
 $(function(){
 
-
 	$.ajax({
-		url:"http://new.s-tv.ru/tv/",
-		success: function(response){
-	        alert(response)
-		}
+	  url:"www.new.s-tv.ru/tv/",
+	  dataType: "jsonp",
+	  success: function (data) {
+	    console.log(data)
+	    alert(data);
+	  }
 	});
-/*
+
 	$('iframe').load(function(){
 		var iframe = $(this).contents();
 		
@@ -15,13 +16,6 @@ $(function(){
 		console.log(iframe)
 
 
-	});*/
-
-
-	//
-
-	//console.log(iframe)
-	//console.log(iframe.find('body').html())
-//iframe.find("#header").remove();
+	});
 
 });
