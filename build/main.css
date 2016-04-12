@@ -77,6 +77,17 @@
         margin-top: 10px;
       }
 
+      .resume a {
+        font-size: 12px;
+        margin-left: 42px;
+        text-decoration: none;
+        color: #494949;
+      }
+
+      .resume a:hover {
+        border-bottom: 1px dotted #ADACAD;
+      }
+
       .f18 {
         color:#504D4F;
         font-weight: bold;
