@@ -120,6 +120,9 @@ Dojo<br>
 Опыт с использованием сторонних библиотек для реализаций визуальных и аудио-эффектов 
  <br> &emsp;&emsp;&emsp; (таких как GSAP, а также работающих с Canvas/WebGL) — отдельный плюс <br>
 
+<img src="https://habrastorage.org/files/6bb/418/aa0/6bb418aa03a04d889dd2eb925d844deb.png" align="left" hspace="5"/>
+ Canvas <br>
+
 <img src="https://habrastorage.org/files/af5/b7d/024/af5b7d0247ab4d4ab965e2b61839a5c3.png" align="left" hspace="5"/>
 PhoneGap<br>
 
