@@ -15,7 +15,7 @@
 			$('.left_button, .right_button').fadeOut(200);
 		});
 
-		var count = 24;
+		var count = 25;
 	
 		var section = Math.ceil(count/15);
 		var dom = "";
