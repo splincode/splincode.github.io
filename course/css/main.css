@@ -12,10 +12,10 @@
             width: 1024px;
             color: #231f20;
             min-height: 300px;
-            padding-top: 230px;
+            padding-top: 210px;
             height: auto;
             margin: 0 auto;
-            background: url(../img/main.png) no-repeat 45px 50px;
+            background: url(../img/main.png) no-repeat 45px 30px;
             
         }
 
@@ -26,7 +26,7 @@
         }
 
         .main p.title {
-            text-align: center;
+            padding-left: 11px;
             font-size: 18px;
             font-weight: bold;
             padding-bottom: 30px;
@@ -57,6 +57,7 @@
             height: 10px;
             margin: 5px;
             border-radius: 50%;
+            margin-left: 0;
         }
 
         .at {
@@ -105,8 +106,8 @@
         .main {position: relative;} 
         #info {
             position: absolute;
-            top: 82px;
-            left: 390px;
+            top: 70px;
+            left: 354px;
         }
 
         #source {
