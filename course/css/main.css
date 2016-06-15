@@ -37,9 +37,10 @@
         }
 
         .icon {
-            width: 80px;
-            height: 80px;
-            float:left;
+            width: 48px;
+            height: 48px;
+            float: left;
+            margin-top: 12px;
         }
 
         .text {
@@ -68,7 +69,7 @@
         a.acourse {font-size: 10px; color:#231f20; text-decoration: none}
         a.acourse:hover {border-bottom:1px dotted #231f20;}
 
-        .html .icon {background: url(../img/html.png) no-repeat center center;}
+        .html .icon {background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-48.png) no-repeat center center;}
         .html .circle {background-color: #f06428;}
 
         .css .icon {background: url(../img/css.png) no-repeat center center;}
