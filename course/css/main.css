@@ -107,6 +107,9 @@
         .inform .icon {background: url(../img/inform.png) no-repeat center center;}
         .inform .circle {background-color: #39b4af;}
 
+        .podcast .icon {background: url(../img/podcast.png) no-repeat center center;}
+        .podcast .circle {background-color: #c75b1e;}
+
 
         .center {margin: 50px auto; width: 210px; }
         footer {margin:50px auto; text-align: center; font-size:10px; font-weight: bold}
