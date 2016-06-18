@@ -92,19 +92,19 @@
         .python .icon {background: url(../img/p.png) no-repeat center center;}
         .python .circle {background-color: #ffd44f;}
 
-        .cpp .icon {background: url(../img/cpp.png) no-repeat center center; background-size: 60px;}
+        .cpp .icon {background: url(../img/cpp.png) no-repeat center center;}
         .cpp .circle {background-color: #5a69b4;}
         
-        .java .icon {background: url(../img/java.png) no-repeat center center; background-size: 60px;}
+        .java .icon {background: url(../img/java.png) no-repeat center center;}
         .java .circle {background-color: #5a69b4;}
 
-        .ch .icon {background: url(../img/ch.png) no-repeat center center; background-size: 60px;}
+        .ch .icon {background: url(../img/ch.png) no-repeat center center; }
         .ch .circle {background-color: #5a69b4;}
 
-        .inform .icon {background: url(../img/inform.png) no-repeat center center; background-size: 60px;}
+        .inform .icon {background: url(../img/inform.png) no-repeat center center;}
         .inform .circle {background-color: #5a69b4;}
 
-        .math .icon {background: url(../img/math.png) no-repeat center center; background-size: 60px;}
+        .math .icon {background: url(../img/math.png) no-repeat center center; }
         .math .circle {background-color: #1c1b19;}
 
 
