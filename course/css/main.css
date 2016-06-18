@@ -95,11 +95,11 @@
         .cpp .icon {background: url(../img/cpp.png) no-repeat center center;}
         .cpp .circle {background-color: #00adcb;}
         
-        .java .icon {background: url(../img/java.png) no-repeat center center;}
-        .java .circle {background-color: #5a69b4;}
-
         .ch .icon {background: url(../img/ch.png) no-repeat center center; }
-        .ch .circle {background-color: #5a69b4;}
+        .ch .circle {background-color: #652078;}
+
+        .java .icon {background: url(../img/java.png) no-repeat center center;}
+        .java .circle {background-color: #ea2d2e;}
 
         .inform .icon {background: url(../img/inform.png) no-repeat center center;}
         .inform .circle {background-color: #5a69b4;}
