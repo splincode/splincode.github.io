@@ -4,18 +4,13 @@
 	
 		var data;
 
-		$.ajaxSetup({async: false});
-		$.getJSON('http://splincode.ru/portfolio/count.json', function(d){data = d;});
-		$.ajaxSetup({async: true});
-
-
 		$('.code').hover(function(){
 			$('.left_button, .right_button').fadeIn(200);
 		}, function(){
 			$('.left_button, .right_button').fadeOut(200);
 		});
 
-		var count = 25;
+		var count = 29;
 	
 		var section = Math.ceil(count/15);
 		var dom = "";
@@ -26,7 +21,7 @@
 			
 
 			for(var i=k; i<(k+15); i++){
-				dom += ("<image class='img' src='http://splincode.ru/portfolio/"+i+".jpg' />" + "\n");
+				dom += ("<image class='img' src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/"+i+".jpg' />" + "\n");
 				count--;
 
 				if (count == 0) break;
