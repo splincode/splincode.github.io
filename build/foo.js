@@ -10,7 +10,7 @@
 			$('.left_button, .right_button').fadeOut(200);
 		});
 
-		var count = 36;
+		var count = 37;
 	
 		var section = Math.ceil(count/15);
 		var dom = "";
