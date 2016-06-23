@@ -868,15 +868,15 @@ div.tl
 {
     margin-left: 25px
 }
-li[data-rating]
+h2[data-rating]
 {
     cursor: help;
 }
-li[data-rating]:hover::after
+h2[data-rating]:hover::after
 {
     visibility: visible
 }
-li[data-rating]::after
+h2[data-rating]::after
 {
     visibility: hidden;
     content: attr(data-rating);
