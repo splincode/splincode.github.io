@@ -131,7 +131,10 @@
 						<section id="boxSlider">
 							<section id="innerSlider">
 
-
+								<div class="frameSlider">1</div>
+								<div class="frameSlider">2</div>
+								<div class="frameSlider">3</div>
+								<div class="frameSlider">4</div>
 
 							</section>
 						</section>
@@ -245,47 +248,47 @@
 
   <script src="build/modernizr.min.js"></script>
   <script src="http://code.jquery.com/jquery-3.0.0.js"></script>
-
+  <script src="build/app.js"></script>
   <script src="build/spliny/app.js"></script>
   <script>
-  	$('body').fadeIn();
-  	
-  	var count = 37;
-  	
-  	var section = Math.ceil(count/15);
-  	var dom = "";
 
-  	var k = 1;
-  	for (var j=1; j <= section; j++){
-  		dom += "<div class='frameSlider'>";
-  		
+    	
+    	var count = 37;
+    	
+    	var section = Math.ceil(count/15);
+    	var dom = "";
 
-  		for(var i=k; i<(k+15); i++){
-  			dom += ("<image class='img' src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/"+i+".jpg' />" + "\n");
-  			count--;
+    	var k = 1;
+    	for (var j=1; j <= section; j++){
+    		dom += "<div class='frameSlider'>";
+    		
 
-  			if (count == 0) break;
-  		}
-  		k += 15;
+    		for(var i=k; i<(k+15); i++){
+    			dom += ("<image class='img' src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/"+i+".jpg' />" + "\n");
+    			count--;
 
-  		dom += "</div>";
-  	}
+    			if (count == 0) break;
+    		}
+    		k += 15;
 
-  	$("#innerSlider").html(dom);
+    		dom += "</div>";
+    	}
 
-  	$(window).on('load', () => {
-  		let slider = new Spliny();
+    	$("#innerSlider").html(dom);
 
-  		$('.right_button').on("click", () => {
-  			slider.right();
-  		});
+    	$(window).on('load', () => {
+    		let slider = new Spliny();
 
-  		$('.left_button').on("click", () => {
-  			slider.left();
-  		});
+    		$('.right_button').on("click", () => {
+    			slider.right();
+    		});
 
-  		
-  	});
-  </script>
+    		$('.left_button').on("click", () => {
+    			slider.left();
+    		});
+
+    		
+    	});
+    </script>
 </body>
 </html>
