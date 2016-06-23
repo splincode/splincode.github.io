@@ -537,7 +537,7 @@ img
     float: left;
     overflow: hidden;
     margin: 10px;
-    height: 600px;
+    height: 575px;
     background: #fefbf8;
     color: #242424;
     font-size: 14px;
@@ -679,7 +679,7 @@ div.tl
 .right
 {
     width: 680px;
-    height: 580px;
+    height: 555px;
     padding: 10px;
     text-align: left;
 }

@@ -1,0 +1,18 @@
+#boxSlider {
+	overflow: hidden;
+	outline: 1px solid red
+}
+
+.frameSlider {
+	box-sizing: border-box;
+	float: left;
+	padding: 10px;
+	width: 310px;
+	height: 152px;
+	border: 1px solid blue
+}
+
+#innerSlider {
+	margin-left: 0;
+	animation-duration: 1s;
+}
