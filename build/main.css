@@ -576,15 +576,18 @@ img
     color: #504D4F;
     font-weight: bold;
     font-size: 18px;
+    margin: 0;
 }
 .f16
 {
     color: #0095EB;
     font-size: 16px;
+    margin: 0;
 }
 .f14
 {
-    color: #242424
+    color: #242424;
+    margin: 0;
 }
 .bold
 {
