@@ -870,7 +870,7 @@ div.tl
 }
 li[data-rating]
 {
-    cursor: pointer
+    cursor: help
 }
 li[data-rating]:hover::after
 {
