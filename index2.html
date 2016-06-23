@@ -248,7 +248,8 @@
 
   <script src="build/spliny/app.js"></script>
   <script>
-
+  	$('body').fadeIn();
+  	
   	var count = 37;
   	
   	var section = Math.ceil(count/15);
@@ -272,7 +273,7 @@
 
   	$("#innerSlider").html(dom);
 
-  	$(document).on('load', () => {
+  	$(window).on('load', () => {
   		let slider = new Spliny();
 
   		$('.right_button').on("click", () => {
@@ -283,7 +284,7 @@
   			slider.left();
   		});
 
-  		$('body').fadeIn();
+  		
   	});
   </script>
 </body>
