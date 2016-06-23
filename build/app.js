@@ -1,4 +1,6 @@
-	if (window.location.protocol === "https:") { window.location.href = ("http://splincode.github.io"); }
+	if (window.location.protocol === "https:") { 
+		window.location.href = ("http://splincode.github.io"); 
+	}
 
 	if(Modernizr.backgroundsize) {
 	
@@ -49,7 +51,7 @@
 			
 
 			if (activeSection < section){
-				j = 7; // marginLEft = 17 - 10 = 7
+				j = 7; // marginLeft = 17 - 10 = 7
 				nextStep = (-1) * parseFloat($('.slider').css('marginLeft')) + 340 + j; 
 				activeSection++;
 			}
