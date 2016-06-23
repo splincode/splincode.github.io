@@ -256,7 +256,7 @@
 
   	var k = 1;
   	for (var j=1; j <= section; j++){
-  		dom += "<div class='floating'>";
+  		dom += "<div class='frameSlider'>";
   		
 
   		for(var i=k; i<(k+15); i++){
@@ -272,7 +272,7 @@
 
   	$("#innerSlider").html(dom);
 
-  	$(window).on('load', () => {
+  	$(document).on('load', () => {
   		let slider = new Spliny();
 
   		$('.right_button').on("click", () => {
