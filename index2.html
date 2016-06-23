@@ -131,10 +131,7 @@
 						<section id="boxSlider">
 							<section id="innerSlider">
 
-								<div class="frameSlider">1</div>
-								<div class="frameSlider">2</div>
-								<div class="frameSlider">3</div>
-								<div class="frameSlider">4</div>
+
 
 							</section>
 						</section>
@@ -248,9 +245,33 @@
 
   <script src="build/modernizr.min.js"></script>
   <script src="http://code.jquery.com/jquery-3.0.0.js"></script>
-  <script src="build/app.js"></script>
+
   <script src="build/spliny/app.js"></script>
   <script>
+
+  	var count = 37;
+  	
+  	var section = Math.ceil(count/15);
+  	var dom = "";
+
+  	var k = 1;
+  	for (var j=1; j <= section; j++){
+  		dom += "<div class='floating'>";
+  		
+
+  		for(var i=k; i<(k+15); i++){
+  			dom += ("<image class='img' src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/"+i+".jpg' />" + "\n");
+  			count--;
+
+  			if (count == 0) break;
+  		}
+  		k += 15;
+
+  		dom += "</div>";
+  	}
+
+  	$("#innerSlider").html(dom);
+
   	$(window).on('load', () => {
   		let slider = new Spliny();
 
