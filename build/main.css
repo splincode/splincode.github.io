@@ -588,6 +588,8 @@ img
 {
     color: #242424;
     font-size: 14px;
+    font-weight: 300;
+    display: inline;
     margin: 0;
 }
 .bold
