@@ -584,7 +584,7 @@ img
     font-size: 16px;
     margin: 0;
 }
-.f14
+.f14, .keywords
 {
     color: #242424;
     font-size: 14px;
@@ -592,6 +592,7 @@ img
     display: inline;
     margin: 0;
 }
+
 .bold
 {
     font-weight: bold
