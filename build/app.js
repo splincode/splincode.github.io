@@ -106,7 +106,7 @@
 			$('body').fadeIn(400);
 		})
 
-		$(window).load(function(){
+		$(window).on("load", function(){
 
 			w = $(window).width();
 			
@@ -129,7 +129,7 @@
 			}
 
 
-		})
+		});
 		
 
 	} else {
