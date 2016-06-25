@@ -987,9 +987,8 @@ h2[data-rating]::after
     float: left;
     width: 330px;
     height: 192px;
-    /* border: 1px solid red; */
     margin: 0;
-    margin-left: 17px;
+    margin-left: 12px;
     margin-top: 14px;
 }
 .code img
