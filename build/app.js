@@ -17,7 +17,7 @@
 
 		let k = 1;
 		for (let j = 1; j <= section; j++){
-			dom += "<div class='floating'>";
+			dom += `<div class='floating'>`;
 			
 			for(let i=k; i<(k+15); i++){
 				dom += `
@@ -32,7 +32,7 @@
 			}
 
 			k += 15;
-			dom += "</div>";
+			dom += `</div>`;
 		}
 
 		$("#innerSlider").html(dom);
@@ -41,6 +41,7 @@
     		
     		// слайдер 
     		let slider = new Spliny();
+    		console.log(slider)
 
     		$('.right_button').on("click", () => {
     			alert(1)
