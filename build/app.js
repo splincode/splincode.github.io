@@ -23,7 +23,7 @@
 				dom += `
 					<image 
 						class='img' 
-						src='http://splincode.github.io/portfolio/preview/${i}.jpg' 
+						src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/${i}.jpg' 
 						alt='портфолио' 
 					/>\n`;
 				
