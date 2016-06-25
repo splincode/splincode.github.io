@@ -771,7 +771,8 @@ div.tl
 
 #innerSlider {
     margin-left: 0;
-    animation-duration: 0.7s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 .clear

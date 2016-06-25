@@ -36,11 +36,12 @@ class Spliny {
 			let rule = parseFloat( $('#innerSlider').css('margin-left') );
 			let slide = rule; 
 			slide -= this.x;
-
+			let podrule = Math.ceil(podrule / 2);
 			$('body').append(`
 				<style id="x-right">
 				@keyframes x-right {
 				    0%   {margin-left: ${rule}px} /* rule - текущая позиция */
+				    50%   {margin-left: ${podrule}px} /* rule - текущая позиция */
 				    100% {margin-left: ${slide}px} /* slide - смещение на новую позицию */
 				}
 
