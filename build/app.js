@@ -17,7 +17,7 @@
 			
 
 			for(var i=k; i<(k+15); i++){
-				dom += ("<image class='img' src='"+i+".jpg' />" + "\n");
+				dom += ("<image class='img' src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/"+i+".jpg' />" + "\n");
 				count--;
 
 				if (count == 0) break;
@@ -29,7 +29,7 @@
 
 		
 
-		$('.slider').html(dom);
+		//$('.slider').html(dom);
 
 		
 		var activeSection = 1;
