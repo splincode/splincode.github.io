@@ -474,8 +474,15 @@ body
 }
 body
 {
-    display: none
+    display: none;
+    transition: opacity 0.5s linear;
 }
+
+body.visible {
+    display: block;
+    opacity: 1;
+}
+
 html
 {
     overflow: auto
@@ -762,7 +769,7 @@ div.tl
 
 #innerSlider {
     margin-left: 0;
-    animation-duration: 1s;
+    animation-duration: 0.7s;
 }
 
 .clear
