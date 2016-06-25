@@ -958,7 +958,7 @@ h2[data-rating]::after
     left: -30px;
     top: 76px;
     cursor: pointer;
-    transition: opacity 0.5s linear;
+    transition: opacity 0.2s linear;
 }
 .right_button
 {
