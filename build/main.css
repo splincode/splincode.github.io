@@ -694,12 +694,13 @@ div.tl
 .code,
 .info
 {
-    position: absolute;
-    right: 45px;
-    top: 0;
-    width: 360px;
-    height: auto;
-    border: 1px solid #F8F6F8;
+     position: absolute;
+     right: 38px;
+     top: 0;
+     width: 350px;
+     height: 185px;
+     padding: 5px;
+     border: 1px solid #f8f8f8;
 }
 .info
 {
