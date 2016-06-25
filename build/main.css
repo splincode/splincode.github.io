@@ -475,7 +475,7 @@ body
 body
 {
     display: none;
-    transition: opacity 0.5s linear;
+    transition: opacity 5.5s linear;
 }
 
 body.visible {
