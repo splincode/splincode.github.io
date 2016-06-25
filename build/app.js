@@ -71,40 +71,6 @@
 			}
 
     	});
-
-
-
-
-		/*
-
-		$('.floating img').unbind("click").on("click", function(){
-			el = $(this).clone();
-			$('.basket').html(el);
-			el.css('display', 'inline-block')
-			$('.modal').fadeIn(500);
-		});
-
-		$('.close').on("click", function(){
-			clickCloseModal();
-		})
-
-		$(document).keyup(function(e) {
-		     if (e.keyCode == 27) { 
-		     	clickCloseModal();
-		    }
-		});
-
-
-		var clickCloseModal = function(){
-			$('.modal').fadeOut(500, function(){
-				$('.modal .img').remove();
-			})
-		}
-
-		*/
-
-
 		
-
 	} else document.location.href = "http://phpbbex.com/oldies/ru.html";
 	
