@@ -698,14 +698,6 @@ div.tl
      padding: 5px;
      border: 1px solid #f8f8f8;
 }
-
-.code {
-    -moz-box-shadow: 0px 0px 0px #000000;
-    -webkit-box-shadow: 0px 0px 0px #000000;
-    box-shadow: 0px 0px 0px #000000;
-    transition: box-shadow 0.5s ease-in-out:
-}
-
 .info
 {
     height: auto;
@@ -946,13 +938,14 @@ h2[data-rating]::after
 
 .code:hover .left_button,
 .code:hover .right_button {
-    display: block;
+    //display: block;
 }
 
 .left_button,
 .right_button
 {
-    opacity: 0.5;
+    //opacity: 0;
+    display: none;
     width: 32px;
     height: 32px;
     position: absolute;
