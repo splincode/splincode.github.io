@@ -41,15 +41,12 @@
     		
     		// слайдер 
     		let slider = new Spliny();
-    		console.log(slider)
 
     		$('.right_button').on("click", () => {
-    			alert(1)
     			slider.right();
     		});
 
     		$('.left_button').on("click", () => {
-    			alert(2)
     			slider.left();
     		});
 
