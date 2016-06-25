@@ -1,17 +1,11 @@
-	if (window.location.protocol === "https:") 
-		window.location.href = ("http://splincode.github.io"); 
+	"use strict";
+
+	let loc = window.location;
+	if (loc === "https:") loc.href = ("http://splincode.github.io"); 
 	
 
 	if(Modernizr.backgroundsize) {
 	
-		var data;
-
-		$('.code').hover(function(){
-			//$('.left_button, .right_button').fadeIn(200);
-		}, function(){
-			//$('.left_button, .right_button').fadeOut(200);
-		});
-
 		var count = 37;
 	
 		var section = Math.ceil(count/15);

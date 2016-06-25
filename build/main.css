@@ -938,14 +938,13 @@ h2[data-rating]::after
 
 .code:hover .left_button,
 .code:hover .right_button {
-    //display: block;
+    opacity: 1
 }
 
 .left_button,
 .right_button
 {
-    //opacity: 0;
-    display: none;
+    opacity: 0;
     width: 32px;
     height: 32px;
     position: absolute;
@@ -959,7 +958,7 @@ h2[data-rating]::after
     left: -30px;
     top: 76px;
     cursor: pointer;
-    transition: opacity 0.5s linear;
+    transition: opacity 1s linear;
 }
 .right_button
 {
