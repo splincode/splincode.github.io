@@ -5,71 +5,77 @@
 	
 
 	if(Modernizr.backgroundsize) {
-	
-		var count = 37;
-	
-		var section = Math.ceil(count/15);
-		var dom = "";
 
-		var k = 1;
-		for (var j=1; j <= section; j++){
+		$(document).ready(() => {		
+			$('body').fadeIn(400);
+		});
+		
+		// заполняем кадры изображениями
+		let count = 37;
+		let section = Math.ceil( count / 15 );
+		let dom = '';
+
+		let k = 1;
+		for (let j = 1; j <= section; j++){
 			dom += "<div class='floating'>";
 			
-
-			for(var i=k; i<(k+15); i++){
-				dom += ("<image class='img' src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/"+i+".jpg' />" + "\n");
+			for(let i=k; i<(k+15); i++){
+				dom += `
+					<image 
+						class='img' 
+						src='http://splincode.github.io/portfolio/preview/${i}.jpg' 
+						alt='портфолио' 
+					/>\n`;
+				
 				count--;
-
 				if (count == 0) break;
 			}
-			k += 15;
 
+			k += 15;
 			dom += "</div>";
 		}
 
-		
+		$("#innerSlider").html(dom);
 
-		//$('.slider').html(dom);
+		$(window).on('load', () => {
+    		
+    		// слайдер 
+    		let slider = new Spliny();
 
-		
-		var activeSection = 1;
-		var nextStep = 340;
-		var start = 0;
-		var new_width = (360  * section) + "px";
-		j = 0;
+    		$('.right_button').on("click", () => {
+    			slider.right();
+    		});
 
-		$('.slider').css({'width' : new_width, 'max-width' : new_width});
-		
+    		$('.left_button').on("click", () => {
+    			slider.left();
+    		});
 
-		$('.right_button').on("click", function(){
+    		// видео
+    		let w = $(window).width();
 			
+			if (w > 640) {
 
-			if (activeSection < section){
-				j = 7; // marginLeft = 17 - 10 = 7
-				nextStep = (-1) * parseFloat($('.slider').css('marginLeft')) + 340 + j; 
-				activeSection++;
-			}
-			
-			$('.slider').animate({
-			    marginLeft : "-" + nextStep + "px"
-			},500);
+				var path = 'build/media/intro.mp4';
+				var video = 
+				$('<video width="6000px" height="6000px" loop autoplay>' +
+				    "<source src='" + path + "' type='video/mp4'>" +
+				"</video>");
 
-		})
+				$('.layer').before(video);
 
-		$('.left_button').on("click", function(){
+	 			video.bind("canplaythrough", () => {
+				    $('video').css('visibility', 'visible');
+				    $('.layer').css('opacity', '0.7');
+				});
 
-			if (activeSection > 1){
-				j = 7;
-				start = (-1) * parseFloat($('.slider').css('marginLeft')) - 340 - j; 
-				activeSection--;
 			}
 
-			$('.slider').animate({
-			    marginLeft : "-" + start + "px"
-			},500);
-			
-		})
+    	});
 
+
+
+
+		/*
 
 		$('.floating img').unbind("click").on("click", function(){
 			el = $(this).clone();
@@ -95,37 +101,10 @@
 			})
 		}
 
-
-		$(document).ready(function(){		
-			$('body').fadeIn(400);
-		})
-
-		$(window).on("load", function(){
-
-			w = $(window).width();
-			
-			if (w > 640) {
-
-				var path = 'build/media/intro.mp4';
-				var video = 
-				$('<video width="6000px" height="6000px" loop autoplay>' +
-				    "<source src='" + path + "' type='video/mp4'>" +
-				"</video>");
-
-				$('.layer').before(video);
-
-	 			video.bind("canplaythrough", function () {
-				    $('video').css('visibility', 'visible');
-				    $('.layer').css('opacity', '0.7');
-
-				});
-
-			}
+		*/
 
 
-		});
 		
 
-	} else {
-		document.location.href = "http://phpbbex.com/oldies/ru.html";
-	}
+	} else document.location.href = "http://phpbbex.com/oldies/ru.html";
+	
