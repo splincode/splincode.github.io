@@ -17,7 +17,7 @@
 
 		let k = 1;
 		for (let j = 1; j <= section; j++){
-			dom += `<div class='floating'>`;
+			dom += `<div class='frameSlider'>`;
 			
 			for(let i=k; i<(k+15); i++){
 				dom += `
