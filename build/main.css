@@ -474,12 +474,14 @@ body
 }
 body
 {
-    display: none;
-    transition: opacity 5.5s linear;
+   opacity: 0;
+   -moz-transition: opacity 1.5s;
+   -webkit-transition: opacity 1.5s;
+   -o-transition: opacity 1.5s;
+   transition: opacity 1.5s;
 }
 
-body.visible {
-    display: block;
+.fadeIn {
     opacity: 1;
 }
 
