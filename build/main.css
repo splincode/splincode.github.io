@@ -935,6 +935,12 @@ h2[data-rating]::after
     width: 360px;
     height: 192px;
 }
+
+.code:hover .left_button,
+.code:hover .right_button {
+    display: block;
+}
+
 .left_button,
 .right_button
 {
@@ -952,6 +958,7 @@ h2[data-rating]::after
     left: -30px;
     top: 76px;
     cursor: pointer;
+    transition: 1s linear;
 }
 .right_button
 {
