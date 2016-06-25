@@ -944,7 +944,7 @@ h2[data-rating]::after
 .left_button,
 .right_button
 {
-    display: none;
+    opacity: 0.5;
     width: 32px;
     height: 32px;
     position: absolute;
@@ -958,7 +958,7 @@ h2[data-rating]::after
     left: -30px;
     top: 76px;
     cursor: pointer;
-    transition: 1s linear;
+    transition: opacity 0.5s linear;
 }
 .right_button
 {
