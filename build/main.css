@@ -480,7 +480,9 @@ body
    transition: opacity 1.5s;
 }
 
-
+.fadeIn {
+    opacity: 1;
+}
 
 html
 {
@@ -828,7 +830,10 @@ div.tl
     {
         width: 340px
     }
-
+    .section4
+    {
+        display: none
+    }
     .right
     {
         width: 320px
