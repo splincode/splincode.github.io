@@ -788,124 +788,7 @@ div.tl
 {
     clear: both
 }
-@media (max-width: 1024px)
-{ 
-    .left
-    {
-        width: 700px;
-        height: 230px;
-    }
 
-	.left_button,
-	.right_button {
-	    opacity: 1
-	}
-
-    .child
-    {
-        width: 700px
-    }
-    .section1,
-    .section2,
-    .section3
-    {
-        float: left;
-        margin: 10px;
-    }
-    .section1
-    {
-        margin-left: 15px
-    }
-    .logo
-    {
-        margin-bottom: 10px
-    }
-    .section1 .f16,
-    .section1 .f14
-    {
-        display: none
-    }
-    .section2 .contact
-    {
-        margin-top: 0
-    }
-}
-@media (max-width: 640px)
-{ 
-    .left
-    {
-        width: 340px
-    }
-    .section4
-    {
-        display: none
-    }
-    .right
-    {
-        width: 320px
-    }
-    .child
-    {
-        width: 320px
-    }
-    .section2
-    {
-        float: left;
-        width: 10px;
-        margin: 0;
-    }
-        .section2 p
-        {
-            margin-bottom: 14px
-        }
-    video
-    {
-        display: none
-    }
-    .layer
-    {
-        display: none
-    }
-    .hidden
-    {
-        display: none
-    }
-}
-@media (max-width: 440px)
-{ 
-    .left
-    {
-        width: 100%;
-        margin: 0;
-    }
-    .right
-    {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    .left,
-    .right
-    {
-        border: none
-    }
-    body
-    {
-        overflow-x: hidden;
-        min-width: 320px;
-        background: none;
-        background-color: #fefbf8;
-    }
-    .section3
-    {
-        display: none
-    }
-    .child
-    {
-        width: 99%;
-        display: block;
-    }
-}
 .right .f18
 {
     margin-left: 25px
@@ -1083,4 +966,130 @@ h2[data-rating]::after
 .basket
 {
     display: inline
+}
+
+
+@media (max-width: 1024px)
+{ 
+    .left
+    {
+        width: 700px;
+        height: 230px;
+    }
+
+	.left_button,
+	.right_button {
+	    opacity: 1
+	}
+
+	.code {
+	    -moz-box-shadow: 0px 0px 3px #000000;
+	    -webkit-box-shadow: 0px 0px 3px #000000;
+	    box-shadow: 0px 0px 3px #000000;
+	}
+
+    .child
+    {
+        width: 700px
+    }
+    .section1,
+    .section2,
+    .section3
+    {
+        float: left;
+        margin: 10px;
+    }
+    .section1
+    {
+        margin-left: 15px
+    }
+    .logo
+    {
+        margin-bottom: 10px
+    }
+    .section1 .f16,
+    .section1 .f14
+    {
+        display: none
+    }
+    .section2 .contact
+    {
+        margin-top: 0
+    }
+}
+@media (max-width: 640px)
+{ 
+    .left
+    {
+        width: 340px
+    }
+    .section4
+    {
+        display: none
+    }
+    .right
+    {
+        width: 320px
+    }
+    .child
+    {
+        width: 320px
+    }
+    .section2
+    {
+        float: left;
+        width: 10px;
+        margin: 0;
+    }
+        .section2 p
+        {
+            margin-bottom: 14px
+        }
+    video
+    {
+        display: none
+    }
+    .layer
+    {
+        display: none
+    }
+    .hidden
+    {
+        display: none
+    }
+}
+@media (max-width: 440px)
+{ 
+    .left
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .right
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .left,
+    .right
+    {
+        border: none
+    }
+    body
+    {
+        overflow-x: hidden;
+        min-width: 320px;
+        background: none;
+        background-color: #fefbf8;
+    }
+    .section3
+    {
+        display: none
+    }
+    .child
+    {
+        width: 99%;
+        display: block;
+    }
 }
