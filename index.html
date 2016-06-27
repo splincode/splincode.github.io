@@ -274,7 +274,40 @@
 
 
   		document.getElementById("innerSlider").innerHTML = (dom);
+  		$(window).on('load', function(){
+    		
+    		// слайдер 
+    		var slider = new Spliny();
 
+    		$('.right_button').on("click", function(){
+    			slider.right();
+    		});
+
+    		$('.left_button').on("click", function(){
+    			slider.left();
+    		});
+
+    		// видео
+    		var w = $(window).width();
+			if (w > 640) {
+
+				var path = 'build/media/intro.mp4';
+				var video = 
+				$("<video width='6000px' height='6000px' loop autoplay>" +
+				  "<source src='" + path + "' type='video/mp4'>" +
+				" </video>");
+
+				$('.layer').before(video);
+
+	 			video.bind("canplaythrough", () => {
+	 				$('video').addClass("fadeInVideo")
+				    $('video').css('visibility', 'visible');
+				    $('.layer').css('opacity', '0.7');
+				});
+
+			}
+
+    	});
   		alert("конец")
 
 
