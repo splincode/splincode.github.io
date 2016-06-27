@@ -1,10 +1,10 @@
 	var loc = window.location;
 	if (loc === "https:") loc.href = ("http://splincode.github.io"); 
-		alert(2)
+	
 		$(document).ready(function() {		
 			//$('body').addClass("fadeIn");
 		});
-		alert(2)
+	
 		// заполняем кадры изображениями
 		var count = 37;
 		var section = Math.ceil( count / 15 );
@@ -29,8 +29,8 @@
 			k += 15;
 			dom += `</div>`;
 		}
-		alert(dom)
-		$("#innerSlider").append(dom);
+		//alert(dom)
+		$("#innerSlider").html(dom);
 
 		$(window).on('load', function(){
     		
