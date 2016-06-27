@@ -245,22 +245,21 @@
 		
   		$('body').addClass("fadeIn");
   		
-  		// заполняем кадры изображениями
-  		var count = 37;
-  		var section = Math.ceil( count / 15 );
-  		var dom = '';
+  		var count = 37,
+  			section = Math.ceil( count / 15 ),
+  			dom = '',
+  			k = 1;
+  		
 
-  		var k = 1;
   		for (var j = 1; j <= section; j++){
+
   			dom += "<div class='frameSlider'>";
   		
   			for(var i=k; i<(k+15); i++){
+  				
   				dom += 
-  					"<image "  +
-  						"class='img' " +
-  						"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/" + i +".jpg' " +
-  						"alt='портфолио' " +
-  					"/>\n";
+  				"<image class='img' " +
+  				"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/" + i +".jpg'/>";
   				
   				count--;
   				if (count == 0) break;
@@ -269,8 +268,9 @@
   			k += 15;
   			dom += `</div>`;
   		}
-  		document.getElementById("innerSlider").innerHTML = (dom);
-  		// слайдер 
+
+  		document.getElementById("innerSlider").innerHTML = dom;
+
 		var slider = new Spliny();
 
 		$('.right_button').on("click", function(){
@@ -292,8 +292,7 @@
 			$('.layer').before(video);
 
 			video.bind("canplaythrough", function(){
-					$('video').addClass("fadeInVideo")
-			    $('video').css('visibility', 'visible');
+				$('video').addClass("fadeInVideo")
 			    $('.layer').css('opacity', '0.7');
 			});
 
