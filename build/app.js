@@ -13,7 +13,7 @@
 		var k = 1;
 		for (var j = 1; j <= section; j++){
 			dom += "<div class='frameSlider'>";
-	alert(i)
+			alert(i)
 			for(var i=k; i<(k+15); i++){
 				dom += 
 					"<image "  +
@@ -25,11 +25,11 @@
 				count--;
 				if (count == 0) break;
 			}
-
+			alert(dom)
 			k += 15;
 			dom += `</div>`;
 		}
-
+		alert(dom)
 		$("#innerSlider").append(dom);
 
 		$(window).on('load', function(){
