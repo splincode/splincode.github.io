@@ -16,7 +16,7 @@
 		var k = 1;
 		for (var j = 1; j <= section; j++){
 			dom += "<div class='frameSlider'>";
-			
+			alert(i)
 			for(var i=k; i<(k+15); i++){
 				dom += 
 					"<image "  +
