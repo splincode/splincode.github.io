@@ -245,8 +245,6 @@
 
   <script src="build/jquery.modernizr.min.js"></script>
   <script>
-		
-  		$('body').addClass("fadeIn");
   		
   		var count = 37,
   			section = Math.ceil( count / 15 ),
@@ -302,7 +300,9 @@
 		}
 	
 
-  		//alert("конец")
+  		$(document).ready(function() {		
+			$('body').addClass("fadeIn");
+		});
 
 
   </script>
