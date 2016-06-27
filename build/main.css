@@ -772,10 +772,10 @@ div.tl
 .frameSlider {
     box-sizing: border-box;
     float: left;
-    padding: 10px;
-    width: 348px;;
+    padding: 13px;
+    width: 348px;
+    padding-left: 17px;
     height: 192px;
-
 }
 
 #innerSlider {
