@@ -480,9 +480,7 @@ body
    transition: opacity 1.5s;
 }
 
-.fadeIn {
-    opacity: 1;
-}
+
 
 html
 {
