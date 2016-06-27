@@ -551,7 +551,7 @@ img
     float: left;
     overflow: hidden;
     margin: 10px;
-    height: 575px;
+    height: 590px;
     background: #fefbf8;
     color: #242424;
     font-size: 14px;
@@ -560,6 +560,7 @@ img
 .left
 {
     width: 250px;
+    height: 609px;
     text-align: center;
 }
 .logo
