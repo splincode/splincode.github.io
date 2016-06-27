@@ -60,7 +60,6 @@
 
 	 			video.bind("canplaythrough", function(){
 	 				$('video').addClass("fadeInVideo")
-	 				
 				    $('.layer').css('opacity', '0.7');
 				});
 
