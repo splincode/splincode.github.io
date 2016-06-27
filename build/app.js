@@ -20,7 +20,6 @@
 					"<image "  +
 						"class='img' " +
 						"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/" + i +".jpg' " +
-						"alt='портфолио' " +
 					"/>\n";
 				
 				count--;
