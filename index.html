@@ -241,7 +241,42 @@
   </section>
 
   <script src="build/jquery.modernizr.min.js"></script>
-  <script>	alert("после min")</script>
-  <script src="build/app.js"></script>
+  <script>	alert("после min")
+
+  		$(document).ready(function() {		
+  			//$('body').addClass("fadeIn");
+  		});
+  		
+  		// заполняем кадры изображениями
+  		var count = 37;
+  		var section = Math.ceil( count / 15 );
+  		var dom = '';
+
+  		var k = 1;
+  		for (var j = 1; j <= section; j++){
+  			dom += "<div class='frameSlider'>";
+  		
+  			for(var i=k; i<(k+15); i++){
+  				dom += 
+  					"<image "  +
+  						"class='img' " +
+  						"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/" + i +".jpg' " +
+  						"alt='портфолио' " +
+  					"/>\n";
+  				
+  				count--;
+  				if (count == 0) break;
+  			}
+  		
+  			k += 15;
+  			dom += `</div>`;
+  		}
+
+
+  		alert("конец")
+
+
+  </script>
+  <!-- <script src="build/app.js"></script> -->
 </body>
 </html>
