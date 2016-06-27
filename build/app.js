@@ -14,10 +14,10 @@
 		var dom = '';
 
 		var k = 1;
-		for (let j = 1; j <= section; j++){
+		for (var j = 1; j <= section; j++){
 			dom += "<div class='frameSlider'>";
 			
-			for(let i=k; i<(k+15); i++){
+			for(var i=k; i<(k+15); i++){
 				dom += 
 					"<image "  +
 						"class='img' " +
@@ -38,7 +38,7 @@
 		$(window).on('load', function(){
     		
     		// слайдер 
-    		let slider = new Spliny();
+    		var slider = new Spliny();
 
     		$('.right_button').on("click", function(){
     			slider.right();
@@ -49,7 +49,7 @@
     		});
 
     		// видео
-    		let w = $(window).width();
+    		var w = $(window).width();
 			if (w > 640) {
 
 				var path = 'build/media/intro.mp4';
