@@ -1,6 +1,8 @@
 	var loc = window.location;
 	if (loc === "https:") loc.href = ("http://splincode.github.io"); 
-	
+	alert("после локала")
+
+
 		$(document).ready(function() {		
 			//$('body').addClass("fadeIn");
 		});
