@@ -1092,4 +1092,8 @@ h2[data-rating]::after
         width: 99%;
         display: block;
     }
+
+    .right .f18 {
+        margin-left: 36px;
+    }
 }
