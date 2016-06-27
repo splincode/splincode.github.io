@@ -499,8 +499,7 @@ html
     zoom: 1
 } /* IE7
    ================================================== */
-video
-{
+video {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -510,7 +509,17 @@ video
     height: auto;
     z-index: 0;
     visibility: hidden;
+    opacity: 0;
 }
+
+.fadeInVideo {
+	visibility: visible;
+	opacity:1;
+	transition:opacity 0.5s linear;
+}
+
+
+
 img
 {
     background: url(img/preload.gif) no-repeat center center;
@@ -527,6 +536,7 @@ img
     opacity: 0;
     z-index: 1;
 }
+
 .parent
 {
     z-index: 10

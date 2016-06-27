@@ -52,18 +52,18 @@
 
     		// видео
     		let w = $(window).width();
-			
 			if (w > 640) {
 
 				var path = 'build/media/intro.mp4';
 				var video = 
-				$('<video width="6000px" height="6000px" loop autoplay>' +
-				    "<source src='" + path + "' type='video/mp4'>" +
-				"</video>");
+				$(`<video width="6000px" height="6000px" loop autoplay>
+				    <source src='${path}' type='video/mp4'>
+				  </video>`);
 
 				$('.layer').before(video);
 
 	 			video.bind("canplaythrough", () => {
+	 				$('video').addClass("fadeInVideo")
 				    $('video').css('visibility', 'visible');
 				    $('.layer').css('opacity', '0.7');
 				});
