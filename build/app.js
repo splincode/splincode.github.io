@@ -5,7 +5,7 @@
 	if(Modernizr.backgroundsize) {
 
 		$(document).ready(function() {		
-			$('body').addClass("fadeIn");
+			//$('body').addClass("fadeIn");
 		});
 		
 		// заполняем кадры изображениями
