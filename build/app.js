@@ -1,61 +1,74 @@
-var loc = window.location;
-if (loc === "https:") loc.href = "http://splincode.github.io";
+	var loc = window.location;
+	if (loc === "https:") loc.href = ("http://splincode.github.io"); 
+	
 
-if (Modernizr.backgroundsize) {
+	if(Modernizr.backgroundsize) {
 
-	$(document).ready(function () {
-		$('body').addClass("fadeIn");
-	});
+		$(document).ready(function() {		
+			$('body').addClass("fadeIn");
+		});
+		
+		// заполняем кадры изображениями
+		var count = 37;
+		var section = Math.ceil( count / 15 );
+		var dom = '';
 
-	// заполняем кадры изображениями
-	var count = 37;
-	var section = Math.ceil(count / 15);
-	var dom = '';
+		var k = 1;
+		for (let j = 1; j <= section; j++){
+			dom += "<div class='frameSlider'>";
+			
+			for(let i=k; i<(k+15); i++){
+				dom += 
+					"<image "  +
+						"class='img' " +
+						"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/" + i +".jpg' " +
+						"alt='портфолио' " +
+					"/>\n";
+				
+				count--;
+				if (count == 0) break;
+			}
 
-	var k = 1;
-	for (var j = 1; j <= section; j++) {
-		dom += '<div class=\'frameSlider\'>';
-
-		for (var i = k; i < k + 15; i++) {
-			dom += '\n\t\t\t\t\t<image \n\t\t\t\t\t\tclass=\'img\' \n\t\t\t\t\t\tsrc=\'https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/' + i + '.jpg\' \n\t\t\t\t\t\talt=\'портфолио\' \n\t\t\t\t\t/>\n';
-
-			count--;
-			if (count == 0) break;
+			k += 15;
+			dom += `</div>`;
 		}
 
-		k += 15;
-		dom += '</div>';
-	}
+		$("#innerSlider").html(dom);
 
-	$("#innerSlider").html(dom);
+		$(window).on('load', function(){
+    		
+    		// слайдер 
+    		let slider = new Spliny();
 
-	$(window).on('load', function () {
+    		$('.right_button').on("click", function(){
+    			slider.right();
+    		});
 
-		// слайдер
-		var slider = new Spliny();
+    		$('.left_button').on("click", function(){
+    			slider.left();
+    		});
 
-		$('.right_button').on("click", function () {
-			slider.right();
-		});
+    		// видео
+    		let w = $(window).width();
+			if (w > 640) {
 
-		$('.left_button').on("click", function () {
-			slider.left();
-		});
+				var path = 'build/media/intro.mp4';
+				var video = 
+				$("<video width='6000px' height='6000px' loop autoplay>" +
+				  "<source src='" + path + "' type='video/mp4'>" +
+				" </video>");
 
-		// видео
-		var w = $(window).width();
-		if (w > 640) {
+				$('.layer').before(video);
 
-			var path = 'build/media/intro.mp4';
-			var video = $('<video width="6000px" height="6000px" loop autoplay>\n\t\t\t\t    <source src=\'' + path + '\' type=\'video/mp4\'>\n\t\t\t\t  </video>');
+	 			video.bind("canplaythrough", () => {
+	 				$('video').addClass("fadeInVideo")
+				    $('video').css('visibility', 'visible');
+				    $('.layer').css('opacity', '0.7');
+				});
 
-			$('.layer').before(video);
+			}
 
-			video.bind("canplaythrough", function () {
-				$('video').addClass("fadeInVideo");
-				$('video').css('visibility', 'visible');
-				$('.layer').css('opacity', '0.7');
-			});
-		}
-	});
-} else document.location.href = "http://phpbbex.com/oldies/ru.html";
+    	});
+		
+	} else document.location.href = "http://phpbbex.com/oldies/ru.html";
+	
