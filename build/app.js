@@ -1,8 +1,5 @@
 	var loc = window.location;
 	if (loc === "https:") loc.href = ("http://splincode.github.io"); 
-	
-
-	if(Modernizr.backgroundsize) {
 
 		$(document).ready(function() {		
 			//$('body').addClass("fadeIn");
@@ -69,6 +66,3 @@
 			}
 
     	});
-		
-	} else document.location.href = "http://phpbbex.com/oldies/ru.html";
-	
