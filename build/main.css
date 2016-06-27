@@ -795,6 +795,12 @@ div.tl
         width: 700px;
         height: 230px;
     }
+
+	.left_button,
+	.right_button {
+	    opacity: 1
+	}
+
     .child
     {
         width: 700px
