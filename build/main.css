@@ -510,11 +510,11 @@ video {
 }
 
 
-img
-{
+img {
     background: url(img/preload.gif) no-repeat center center;
     background-size: 18px;
 }
+
 .layer
 {
     position: fixed;
