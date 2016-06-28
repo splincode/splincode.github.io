@@ -182,7 +182,7 @@
 	          </ul>
 	          </div>	               
 			</div>
-			
+
             <div class="mycircle"></div>
             <div class="head">HTML5</div>
             <ul>
@@ -238,7 +238,7 @@
     <div class="closepanel">
       <div class="close">Закрыть (или нажмите Esc)</div>
     </div>
-    <div class="basket"></div>
+    <div id="basket"></div>
   </div>
 
   <script src="build/jquery.modernizr.min.js"></script>
@@ -257,7 +257,7 @@
   			for(var i=k; i<(k+15); i++){
   				
   				dom += 
-  				"<image class='img' " +
+  				"<image class='img' data-number='" + i + "'" +
   				"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/" + i +".jpg'/>";
   				
   				count--;
@@ -305,7 +305,17 @@
 
 		// click
 		$('.img').on("click", function(){
-			alert(1)
+
+			var i = $(this).attr('data-number');
+
+			var dom += 
+  			"<image class='img' data-number='" + i + "'" +
+  			"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
+  				
+
+			document.getElementById("basket").innerHTML = dom;
+
+			$(".modal").css('display', 'block');
 		});
 
 
