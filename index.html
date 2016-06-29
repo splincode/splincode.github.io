@@ -255,9 +255,8 @@
   		if (http_s.indexOf("http://") !== -1) window.location = "https://splincode.github.io";
   		else {
 
-
-
-  		var count = 38,
+  		var count = 38, 
+  			countPhoto = count,
   			section = Math.ceil( count / 15 ),
   			dom = '',
   			k = 1;
@@ -292,12 +291,30 @@
 		$('.left_button').on("click", function(){
 			slider.left();
 		});
-
-
 		
 
   		$(document).ready(function() {		
 			$('body').addClass("fadeIn");
+
+			var photo = parseFloat ( (function parse(val) {
+			    var result = "Not found",
+			        tmp = [];
+			    location.search
+			    //.replace ( "?", "" )
+			    // this is better, there might be a question mark inside
+			    .substr(1)
+			        .split("&")
+			        .forEach(function (item) {
+			        tmp = item.split("=");
+			        if (tmp[0] === val) result = decodeURIComponent(tmp[1]);
+			    });
+			    return result;
+			})("photo") );
+
+			if (photo > 0 && photo <= countPhoto) {
+				$('[data-number='+ photo +']').triger("click");
+			}
+
 		});
 
 
@@ -306,7 +323,7 @@
 
 			var i = $(this).attr('data-number');
 
-			window.history.pushState(null, null, '?photos='+i);
+			window.history.pushState(null, null, '?photo='+i);
 
 			var dom = 
   			"<image class='img' data-number='" + i + "'" +
