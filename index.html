@@ -251,8 +251,8 @@
   <script src="build/jquery.modernizr.min.js"></script>
   <script>
 
-  		var http_s = window.location.href;
-  		if (http_s.indexOf("http://") !== -1) window.location = "https://splincode.github.io";
+  		var http_s = location.href;
+  		if (http_s.indexOf("http://") !== -1) location = "https://splincode.github.io";
   		else {
 
   		var count = 38, 
@@ -313,6 +313,8 @@
 
 			if (photo > 0 && photo <= countPhoto) {
 				$('[data-number='+ photo +']').click();
+			} else {
+				console.log("Not found")
 			}
 
 		});
@@ -323,7 +325,7 @@
 
 			var i = $(this).attr('data-number');
 
-			window.history.pushState(null, null, '?photo='+i);
+			history.pushState(null, null, '?photo='+i);
 
 			var dom = 
   			"<image class='img' data-number='" + i + "'" +
@@ -335,6 +337,7 @@
 		});
 
 		$('.btnclose').on("click", function(){
+			history.pushState({}, null, "/");
 			$(".modal").css('display', 'none');
 			document.getElementById("basket").innerHTML = "";
 		});
