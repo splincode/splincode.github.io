@@ -341,6 +341,24 @@
 			document.getElementById("basket").innerHTML = "";
 		});
 
+		$("body").keydown(function( event ) {
+		  if ( event.which == 27 ) { // ESC
+		     $('.btnclose').click();
+		  }
+		});
+
+		$("body").keydown(function( event ) {
+		  if ( event.which == 37 ) { // Left
+		     $('.lefto').click();
+		  }
+		});
+
+		$("body").keydown(function( event ) {
+		  if ( event.which == 39 ) { // Right
+		     $('.righto').click();
+		  }
+		});
+
 		$('.lefto').on("click", function(){
 			if ($('[data-active]').attr("data-active") === "true") {
 				var i = parseFloat ( $('[data-origin-number]').attr('data-origin-number') );
