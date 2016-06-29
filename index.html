@@ -313,8 +313,6 @@
 
 			if (photo > 0 && photo <= countPhoto) {
 				$('[data-number='+ photo +']').click();
-			} else {
-				console.log("Not found")
 			}
 
 		});
@@ -328,13 +326,13 @@
 			history.pushState(null, null, '?photo='+i);
 
 			var dom = 
-  			"<image class='img' data-number='" + i + "'" +
+  			"<image class='img' data-origin-number='" + i + "'" +
   			"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
   				
 			document.getElementById("basket").innerHTML = dom;
 
 			$(".modal").css('display', 'block').attr("data-active", "true");
-			alert("активировали")
+
 		});
 
 		$('.btnclose').on("click", function(){
@@ -345,7 +343,8 @@
 
 		$('.lefto ').on("click", function(){
 			if ($('[data-active]').attr("data-active") === "true") {
-				alert("активирован")
+				var i = parseFloat ( $('[data-origin-number]').attr('data-origin-number') );
+				alert(i)
 			}
 		});
 
