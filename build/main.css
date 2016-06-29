@@ -961,6 +961,19 @@ h2[data-rating]::after
     display: inline
 }
 
+span.esc {
+    background: #fff;
+    font-size: 12px;
+    color: #424242;
+    min-width: 15px;
+    padding: 0px 5px;
+    margin-left: 6px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+}
+
+
 
 @media (max-width: 1024px)
 { 
