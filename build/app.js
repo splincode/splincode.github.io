@@ -105,8 +105,7 @@ var Spliny = function(){
         for(var i=k; i<(k+15); i++){
           
           dom += 
-          "<image class='img' data-number='" + i + "'" +
-          "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/preview/" + i +".jpg'/>";
+          "<image class='img' data-number='" + i + "' style='background: url(portfolio/preview.jpg) no-repeat 0 0;'/>";
           
           count--;
           if (count == 0) break;
