@@ -243,8 +243,42 @@
 
   <script src="build/jquery.modernizr.min.js"></script>
   <script>
+
+  		function exit( status ) {
+
+  		    var i;
+
+  		    if (typeof status === 'string') {
+  		        console.log(status);
+  		    }
+
+  		    window.addEventListener('error', function (e) {e.preventDefault();e.stopPropagation();}, false);
+
+  		    var handlers = [
+  		        'copy', 'cut', 'paste',
+  		        'beforeunload', 'blur', 'change', 'click', 'contextmenu', 'dblclick', 'focus', 'keydown', 'keypress', 'keyup', 'mousedown', 'mousemove', 'mouseout', 'mouseover', 'mouseup', 'resize', 'scroll',
+  		        'DOMNodeInserted', 'DOMNodeRemoved', 'DOMNodeRemovedFromDocument', 'DOMNodeInsertedIntoDocument', 'DOMAttrModified', 'DOMCharacterDataModified', 'DOMElementNameChanged', 'DOMAttributeNameChanged', 'DOMActivate', 'DOMFocusIn', 'DOMFocusOut', 'online', 'offline', 'textInput',
+  		        'abort', 'close', 'dragdrop', 'load', 'paint', 'reset', 'select', 'submit', 'unload'
+  		    ];
+
+  		    function stopPropagation (e) {
+  		        e.stopPropagation();
+  		        // e.preventDefault(); // Stop for the form controls, etc., too?
+  		    }
+  		    for (i=0; i < handlers.length; i++) {
+  		        window.addEventListener(handlers[i], function (e) {stopPropagation(e);}, true);
+  		    }
+
+  		    if (window.stop) {
+  		        window.stop();
+  		    }
+
+  		    throw '';
+  		}
+
   		var http_s = window.location.protocol;
-  		if (http_s === "http:") window.location.href = "https://splincode.github.io";
+  		if (http_s === "http:") window.location = "https://splincode.github.io";
+  		else exit("не используйте незащищенное соединение протокола http:");
 
   		var count = 38,
   			section = Math.ceil( count / 15 ),
