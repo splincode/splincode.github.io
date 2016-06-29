@@ -344,7 +344,16 @@
 		$('.lefto ').on("click", function(){
 			if ($('[data-active]').attr("data-active") === "true") {
 				var i = parseFloat ( $('[data-origin-number]').attr('data-origin-number') );
-				alert(i)
+				i--;
+				
+				if (i > 0) {
+
+					var dom = 
+  					"<image class='img' data-origin-number='" + i + "'" +
+  					"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
+  				
+					document.getElementById("basket").innerHTML = dom;
+				}
 			}
 		});
 
