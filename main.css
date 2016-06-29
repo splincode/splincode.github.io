@@ -456,11 +456,11 @@ html
 }
 html
 {
-    background: #fff url(img/Loader.gif) no-repeat center center
+    background: #fff url(build/img/Loader.gif) no-repeat center center
 }
 body
 {
-    background: rgba(0,0,0, 0.7) url(img/bg.jpg) no-repeat center center;
+    background: rgba(0,0,0, 0.7) url(build/img/bg.jpg) no-repeat center center;
     background-size: cover;
 }
 html,
@@ -511,7 +511,7 @@ video {
 
 
 img {
-    background: url(img/preload.gif) no-repeat center center;
+    background: url(build/img/preload.gif) no-repeat center center;
     background-size: 18px;
 }
 
@@ -671,17 +671,14 @@ div.tl
 }
 .contact
 {
-    background: url(img/1.png) no-repeat 27px 25px;
+    background: url(build/img/1.png) no-repeat 27px 25px;
     margin-top: 10px;
 }
 .project
 {
-    background: url(img/2.png) no-repeat 27px 25px
+    background: url(build/img/2.png) no-repeat 27px 25px
 }
-.sc
-{
-    background: url(img/3.png) no-repeat 27px 25px
-}
+
 .right
 {
     width: 680px;
@@ -802,7 +799,7 @@ h2[data-rating]::after
     font-size: 11px;
     width: 23px;
     height: 16px;
-    background: url(img/star.png) no-repeat 0px 0px;
+    background: url(build/img/star.png) no-repeat 0px 0px;
     padding-top: 6px;
     background-size: 23px;
     display: inline-block;
@@ -848,7 +845,7 @@ h2[data-rating]::after
     width: 32px;
     height: 32px;
     position: absolute;
-    background: #fff url(img/left.png) no-repeat center center;
+    background: #fff url(build/img/left.png) no-repeat center center;
     padding: 3px;
     border-radius: 2px;
     -moz-box-shadow: 0px 0px 3px #000000;
@@ -921,7 +918,7 @@ h2[data-rating]::after
         width: 80%;
         height: auto;
         min-height: 300px;
-        background: #fff url(img/preload.gif) no-repeat center center;
+        background: #fff url(build/img/preload.gif) no-repeat center center;
         background-size: 50px;
         margin: 85px auto;
         border: 5px solid #fff;
