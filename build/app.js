@@ -105,7 +105,7 @@ var Spliny = function(){
         for(var i=k; i<(k+15); i++){
           console.log(i);
           dom += 
-          "<image class='img' data-number='" + i + "' style='background: url(portfolio/preview.jpg) no-repeat -" + ((i-1)*50) + "px 0;'/>";
+          "<image class='img' data-number='" + i + "' style='background: url('portfolio/preview.jpg') no-repeat -" + ((i-1)*50) + "px 0;'/>";
           
           count--;
           if (count == 0) break;
