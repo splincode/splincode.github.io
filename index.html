@@ -306,6 +306,8 @@
 
 			var i = $(this).attr('data-number');
 
+			window.history.pushState(null, null, '?photos='+i);
+
 			var dom = 
   			"<image class='img' data-number='" + i + "'" +
   			"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
