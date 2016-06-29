@@ -243,8 +243,8 @@
 
   <script src="build/jquery.modernizr.min.js"></script>
   <script>
-  		var loc = window.location;
-  		if (loc.indexOf("http://") !== -1) window.location.href = "https://splincode.github.io";
+  		var http_s = window.location.protocol;
+  		if (http_s === "http:") window.location.href = "https://splincode.github.io";
 
   		var count = 38,
   			section = Math.ceil( count / 15 ),
