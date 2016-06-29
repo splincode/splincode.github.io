@@ -944,7 +944,7 @@ h2[data-rating]::after
     background: rgba(0, 0, 0, .5);
     color: #fff;
     text-align: center;
-    width: 390px;
+    width: 300px;
     margin: 10px auto;
     cursor: pointer;
 }
