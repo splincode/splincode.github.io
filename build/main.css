@@ -940,7 +940,6 @@ h2[data-rating]::after
 }
 .close
 {
-    padding: 10px;
     background: rgba(0, 0, 0, .5);
     color: #fff;
     text-align: center;
@@ -950,10 +949,13 @@ h2[data-rating]::after
     position: relative;
 }
 
-.righto {
+.btnclose {
+    padding: 10px;
+}
+
+.righto, .lefto {
 	position: absolute;
 	top: 0;
-	right: -50px;
 	font-size: 23px;
 	padding: 6px;
 	padding-right: 10px;
@@ -961,6 +963,14 @@ h2[data-rating]::after
 	background: rgba(0, 0, 0, .5);
 	width: 20px;
 	cursor: pointer;
+}
+
+.righto {
+	right: -50px;
+}
+
+.lefto {
+	left: -50px;
 }
 
 .modal:before
