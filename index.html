@@ -333,13 +333,20 @@
   				
 			document.getElementById("basket").innerHTML = dom;
 
-			$(".modal").css('display', 'block');
+			$(".modal").css('display', 'block').attr("data-active", "true");
+			alert("активировали")
 		});
 
 		$('.btnclose').on("click", function(){
 			history.pushState({}, null, "/");
-			$(".modal").css('display', 'none');
+			$(".modal").css('display', 'none').attr("data-active", "false");;
 			document.getElementById("basket").innerHTML = "";
+		});
+
+		$('.lefto ').on("click", function(){
+			if ($('[data-active]').attr("data-active") === "true") {
+				alert("активирован")
+			}
 		});
 
 
