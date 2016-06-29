@@ -947,7 +947,22 @@ h2[data-rating]::after
     width: 300px;
     margin: 10px auto;
     cursor: pointer;
+    position: relative;
 }
+
+.righto {
+	position: absolute;
+	top: 0;
+	right: -50px;
+	font-size: 23px;
+	padding: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: rgba(0, 0, 0, .5);
+	width: 20px;
+	cursor: pointer;
+}
+
 .modal:before
 {
     content: '';
