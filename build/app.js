@@ -103,7 +103,7 @@ var Spliny = function(){
         dom += "<div class='frameSlider'>";
       
         for(var i=k; i<(k+15); i++){
-          console.log(k);
+          console.log(i);
           dom += 
           "<image class='img' data-number='" + i + "' style='background: url(portfolio/preview.jpg) no-repeat -" + (k*50) + "px 0;'/>";
           
