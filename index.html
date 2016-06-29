@@ -347,7 +347,7 @@
 				i--;
 				
 				if (i > 0) {
-
+					history.pushState(null, null, '?photo='+i);
 					var dom = 
   					"<image class='img' data-origin-number='" + i + "'" +
   					"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
@@ -363,7 +363,7 @@
 				i++;
 				
 				if (i <= countPhoto) {
-
+					history.pushState(null, null, '?photo='+i);
 					var dom = 
   					"<image class='img' data-origin-number='" + i + "'" +
   					"src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
