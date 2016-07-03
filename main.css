@@ -590,7 +590,7 @@ h2[data-rating]::after
     z-index: 20;
     display: none;
     text-align: center;
-    overflow-x: scroll;
+    overflow-y: scroll;
     z-index: 10;
 }
     .modal .img
