@@ -171,11 +171,13 @@ var Spliny = function(){
         "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
       document.getElementById("baskmg").innerHTML = dom;
-      $("#baskmg img").on("load", function(){
-        var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
-      });
+      $("#baskmg img.img").on("load", function(){
+        alert($("#baskmg img.img").width())
+      })
 
+      var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
       $(".modal").css('display', 'block').attr("data-active", "true");
+
     });
 
     $('.btnclose').on("click", function(){
@@ -214,9 +216,7 @@ var Spliny = function(){
             "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
           document.getElementById("baskmg").innerHTML = dom;
-          $("#baskmg img").on("load", function(){
-            var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
-          });
+          var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
         }
       }
     });
@@ -233,9 +233,7 @@ var Spliny = function(){
             "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
           document.getElementById("baskmg").innerHTML = dom;
-          $("#baskmg img").on("load", function(){
-            var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
-          });
+          var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
         }
       }
     });
