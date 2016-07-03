@@ -171,8 +171,8 @@ var Spliny = function(){
         "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
       document.getElementById("baskmg").innerHTML = dom;
-      alert(arrayText[i+1])
-      $('.textmg').text(arrayText[i+1]);
+
+      $('.textmg').text(arrayText[i-1]);
       $(".modal").css('display', 'block').attr("data-active", "true");
 
     });
