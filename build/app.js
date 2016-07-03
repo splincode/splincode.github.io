@@ -96,6 +96,12 @@ var Spliny = function(){
         section = Math.ceil( count / 15 ),
         dom = '',
         k = 1;
+
+      var arrayText = [
+        'описание'
+
+
+      ];
       
 
       for (var j = 1; j <= section; j++){
@@ -164,8 +170,8 @@ var Spliny = function(){
         "<image class='img' data-origin-number='" + i + "'" +
         "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
-      document.getElementById("basket").innerHTML = dom;
-
+      document.getElementById("baskmg").innerHTML = dom;
+      $('.textmg').text(arrayText[i]);
       $(".modal").css('display', 'block').attr("data-active", "true");
 
     });

@@ -674,6 +674,20 @@ span.esc {
     border: 1px solid rgba(0,0,0,.15);
 }
 
+.boxt {
+	background: #fff;
+    padding: 10px;
+    width: 730px; /* auto dinamic */
+    margin: auto;
+    text-align: left;
+}
+.descriptionmg {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 6px;
+}
+
 
 
 @media (max-width: 1024px)
