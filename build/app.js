@@ -98,7 +98,13 @@ var Spliny = function(){
         k = 1;
 
       var arrayText = [
-        'описание'
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
 
 
       ];
@@ -217,7 +223,12 @@ var Spliny = function(){
             "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
           document.getElementById("baskmg").innerHTML = dom;
-          var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
+          $("#baskmg img.img").on("load", function(){
+            var wmg = $("#baskmg img.img").width() - 10;
+            $(".boxt").css('width', wmg+"px");
+          })
+
+          $('.textmg').text(arrayText[i-1]);
         }
       }
     });
@@ -234,7 +245,12 @@ var Spliny = function(){
             "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
           document.getElementById("baskmg").innerHTML = dom;
-          var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
+          $("#baskmg img.img").on("load", function(){
+            var wmg = $("#baskmg img.img").width() - 10;
+            $(".boxt").css('width', wmg+"px");
+          })
+
+          $('.textmg').text(arrayText[i-1]);
         }
       }
     });
