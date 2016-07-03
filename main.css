@@ -680,14 +680,20 @@ span.esc {
     width: 730px; /* auto dinamic */
     margin: auto;
     text-align: left;
+
 }
 .descriptionmg {
 	width: 20px;
 	height: 20px;
 	float: left;
-	margin-right: 6px;
+	margin-right: 10px;
+	background: none
 }
 
+.textmg {
+	word-wrap: break-word;
+	float:left;
+}
 
 
 @media (max-width: 1024px)

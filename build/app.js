@@ -172,15 +172,15 @@ var Spliny = function(){
           
       document.getElementById("baskmg").innerHTML = dom;
 
-      $('.textmg').text(arrayText[i-1]);
+      var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
       $(".modal").css('display', 'block').attr("data-active", "true");
 
     });
 
     $('.btnclose').on("click", function(){
       history.pushState({}, null, "/");
-      $(".modal").css('display', 'none').attr("data-active", "false");;
-      document.getElementById("basket").innerHTML = "";
+      $(".modal").css('display', 'none').attr("data-active", "false");
+      document.getElementById("baskmg").innerHTML = "";
     });
 
     $("body").keydown(function( event ) {
@@ -212,7 +212,8 @@ var Spliny = function(){
             "<image class='img' data-origin-number='" + i + "'" +
             "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
-          document.getElementById("basket").innerHTML = dom;
+          document.getElementById("baskmg").innerHTML = dom;
+          var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
         }
       }
     });
@@ -228,7 +229,8 @@ var Spliny = function(){
             "<image class='img' data-origin-number='" + i + "'" +
             "src='https://raw.githubusercontent.com/splincode/splincode.github.io/master/portfolio/origin/" + i +".jpg'/>";
           
-          document.getElementById("basket").innerHTML = dom;
+          document.getElementById("baskmg").innerHTML = dom;
+          var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
         }
       }
     });
