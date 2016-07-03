@@ -590,13 +590,14 @@ h2[data-rating]::after
     z-index: 20;
     display: none;
     text-align: center;
-    overflow: auto;
+    overflow-x: scroll;
     z-index: 10;
 }
     .modal .img
     {
-        width: 80%;
+        min-width: 40%;
         height: auto;
+        max-width: 80%;
         min-height: 300px;
         background: #fff url(build/img/preload.gif) no-repeat center center;
         background-size: 50px;
