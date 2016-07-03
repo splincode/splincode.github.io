@@ -172,10 +172,11 @@ var Spliny = function(){
           
       document.getElementById("baskmg").innerHTML = dom;
       $("#baskmg img.img").on("load", function(){
-        alert($("#baskmg img.img").width())
+        var wmg = $("#baskmg img.img").width() - 10;
+        $(".boxt").css('width', wmg+"px");
       })
 
-      var wmg = $(".modal .img").width() - 10; $(".boxt").css('width', wmg+"px"); $('.textmg').text(arrayText[i-1]);
+      $('.textmg').text(arrayText[i-1]);
       $(".modal").css('display', 'block').attr("data-active", "true");
 
     });
